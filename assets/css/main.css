@@ -261,7 +261,7 @@ input, select, textarea {
 	}
 
 	blockquote {
-		border-left: solid 3px rgba(210, 215, 217, 0.75);
+		border-left: solid 3px rgba(61, 68, 73, 0.75);
 		font-style: italic;
 		margin: 0 0 2em 0;
 		padding: 0.5em 0 0.5em 2em;
@@ -270,7 +270,7 @@ input, select, textarea {
 	code {
 		background: rgba(230, 235, 237, 0.25);
 		border-radius: 0.375em;
-		border: solid 1px rgba(210, 215, 217, 0.75);
+		border: solid 1px rgba(61, 68, 73, 0.75);
 		font-family: "Courier New", monospace;
 		font-size: 0.9em;
 		margin: 0 0.25em;
@@ -293,7 +293,7 @@ input, select, textarea {
 
 	hr {
 		border: 0;
-		border-bottom: solid 1px rgba(210, 215, 217, 0.75);
+		border-bottom: solid 1px rgba(61, 68, 73, 0.75);
 		margin: 2em 0;
 	}
 
@@ -1836,7 +1836,7 @@ input, select, textarea {
 		background: #ffffff;
 		border-radius: 0.375em;
 		border: none;
-		border: solid 1px rgba(210, 215, 217, 0.75);
+		border: solid 1px rgba(61, 68, 73, 0.75);
 		color: inherit;
 		display: block;
 		outline: 0;
@@ -1869,7 +1869,7 @@ input, select, textarea {
 		}
 
 	select {
-		background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40' preserveAspectRatio='none' viewBox='0 0 40 40'%3E%3Cpath d='M9.4,12.3l10.4,10.4l10.4-10.4c0.2-0.2,0.5-0.4,0.9-0.4c0.3,0,0.6,0.1,0.9,0.4l3.3,3.3c0.2,0.2,0.4,0.5,0.4,0.9 c0,0.4-0.1,0.6-0.4,0.9L20.7,31.9c-0.2,0.2-0.5,0.4-0.9,0.4c-0.3,0-0.6-0.1-0.9-0.4L4.3,17.3c-0.2-0.2-0.4-0.5-0.4-0.9 c0-0.4,0.1-0.6,0.4-0.9l3.3-3.3c0.2-0.2,0.5-0.4,0.9-0.4S9.1,12.1,9.4,12.3z' fill='rgba(210, 215, 217, 0.75)' /%3E%3C/svg%3E");
+		background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40' preserveAspectRatio='none' viewBox='0 0 40 40'%3E%3Cpath d='M9.4,12.3l10.4,10.4l10.4-10.4c0.2-0.2,0.5-0.4,0.9-0.4c0.3,0,0.6,0.1,0.9,0.4l3.3,3.3c0.2,0.2,0.4,0.5,0.4,0.9 c0,0.4-0.1,0.6-0.4,0.9L20.7,31.9c-0.2,0.2-0.5,0.4-0.9,0.4c-0.3,0-0.6-0.1-0.9-0.4L4.3,17.3c-0.2-0.2-0.4-0.5-0.4-0.9 c0-0.4,0.1-0.6,0.4-0.9l3.3-3.3c0.2-0.2,0.5-0.4,0.9-0.4S9.1,12.1,9.4,12.3z' fill='rgba(61, 68, 73, 0.75)' /%3E%3C/svg%3E");
 		background-size: 1.25em;
 		background-repeat: no-repeat;
 		background-position: calc(100% - 1em) center;
@@ -1946,7 +1946,7 @@ input, select, textarea {
 			input[type="radio"] + label:before {
 				background: #ffffff;
 				border-radius: 0.375em;
-				border: solid 1px rgba(210, 215, 217, 0.75);
+				border: solid 1px rgba(61, 68, 73, 0.75);
 				content: '';
 				display: inline-block;
 				height: 1.65em;
@@ -2004,7 +2004,7 @@ input, select, textarea {
 
 	.box {
 		border-radius: 0.375em;
-		border: solid 1px rgba(210, 215, 217, 0.75);
+		border: solid 1px rgba(61, 68, 73, 0.75);
 		margin-bottom: 2em;
 		padding: 1.5em;
 	}
@@ -2142,7 +2142,7 @@ input, select, textarea {
 		}
 
 			ul.alt li {
-				border-top: solid 1px rgba(210, 215, 217, 0.75);
+				border-top: solid 1px rgba(61, 68, 73, 0.75);
 				padding: 0.5em 0;
 			}
 
@@ -2270,7 +2270,7 @@ input, select, textarea {
 
 		ul.contact li {
 			text-decoration: none;
-			border-top: solid 1px rgba(210, 215, 217, 0.75);
+			border-top: solid 1px rgba(61, 68, 73, 0.75);
 			margin: 1.5em 0 0 0;
 			padding: 1.5em 0 0 3em;
 			position: relative;
@@ -2390,7 +2390,7 @@ input, select, textarea {
 	}
 
 		table tbody tr {
-			border: solid 1px rgba(210, 215, 217, 0.75);
+			border: solid 1px rgba(61, 68, 73, 0.75);
 			border-left: 0;
 			border-right: 0;
 		}
@@ -2412,11 +2412,11 @@ input, select, textarea {
 		}
 
 		table thead {
-			border-bottom: solid 2px rgba(210, 215, 217, 0.75);
+			border-bottom: solid 2px rgba(61, 68, 73, 0.75);
 		}
 
 		table tfoot {
-			border-top: solid 2px rgba(210, 215, 217, 0.75);
+			border-top: solid 2px rgba(61, 68, 73, 0.75);
 		}
 
 		table.alt {
@@ -2424,7 +2424,7 @@ input, select, textarea {
 		}
 
 			table.alt tbody tr td {
-				border: solid 1px rgba(210, 215, 217, 0.75);
+				border: solid 1px rgba(61, 68, 73, 0.75);
 				border-left-width: 0;
 				border-top-width: 0;
 			}
@@ -2572,7 +2572,7 @@ input, select, textarea {
 /* Mini Posts */
 
 	.mini-posts article {
-		border-top: solid 1px rgba(210, 215, 217, 0.75);
+		border-top: solid 1px rgba(61, 68, 73, 0.75);
 		margin-top: 2em;
 		padding-top: 2em;
 	}
@@ -2664,7 +2664,7 @@ input, select, textarea {
 					-ms-transform: rotate(45deg);
 					transform: rotate(45deg);
 					border-radius: 0.25rem;
-					border: solid 2px rgba(210, 215, 217, 0.75);
+					border: solid 2px rgba(61, 68, 73, 0.75);
 					content: '';
 					display: block;
 					height: 7em;
@@ -2807,7 +2807,7 @@ input, select, textarea {
 		}
 
 			.posts article:before {
-				background: rgba(210, 215, 217, 0.75);
+				background: rgba(61, 68, 73, 0.75);
 				content: '';
 				display: block;
 				height: calc(100% + 6em);
@@ -2818,7 +2818,7 @@ input, select, textarea {
 			}
 
 			.posts article:after {
-				background: rgba(210, 215, 217, 0.75);
+				background: rgba(61, 68, 73, 0.75);
 				bottom: -3em;
 				content: '';
 				display: block;
@@ -2996,7 +2996,7 @@ input, select, textarea {
 
 			#main > .inner > section {
 				padding: 6em 0 4em 0 ;
-				border-top: solid 2px rgba(210, 215, 217, 0.75);
+				border-top: solid 0px rgba(61, 68, 73, 0.75);
 			}
 
 				#main > .inner > section:first-of-type {
@@ -3292,7 +3292,7 @@ input, select, textarea {
 				}
 
 	#menu > ul > li {
-		border-top: solid 1px rgba(210, 215, 217, 0.75);
+		border-top: solid 1px rgba(61, 68, 73, 0.75);
 		margin: 0.5em 0 0 0;
 		padding: 0.5em 0 0 0;
 	}
