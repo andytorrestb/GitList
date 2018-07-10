@@ -10,6 +10,7 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+	
 	</head>
 	<body class="is-preload">
 
@@ -44,7 +45,7 @@
 												<li><a href="https://github.com/danistefanovic/build-your-own-x">Build your own ______.</a></li>
 												<li><a href="https://github.com/kamranahmedse/developer-roadmap">Web Dev Roadmap 2018</a></li>
 												<li><a href="https://github.com/sahat/hackathon-starter">Hackathon Starter</a></li>
-												<li><a href="https://github.com/tuvtran/project-based-learning">Truvtran Project Based Learning</a></li>
+												<li><a href="https://github.com/tuvtran/project-based-learning">Truvtran Project Based Learning</a></li>   
 										</ul>
 									</li>
 								</ul>
@@ -66,59 +67,26 @@
 									</header>
 
 									<h4>7/10/2018</h4>
-													<div class="table-wrapper">
+													<div id="app" class="table-wrapper">
 														<table>
 															<thead>
 																<tr>
 																	<th>Name</th>
 																	<th>Description</th>
+																	<th>Date</th>
 																	<th>Publisher</th>
 																</tr>
 															</thead>
 															<tbody>
-																<tr>
-																	<td><a href="https://github.com/jonsuh/hamburgers">Hamburgers</a></td>
-																	<td>a colleciton of CSS-animated hamburger icons. </td>
-																	<td><a href="#" class="icon fa-github"><span class="label">Twitter</span></a></td>
-																</tr>
-																<tr>
-																	<td><a href="https://github.com/kazzkiq/balloon.css">balloon.css</a></td>
-																	<td>Lets you add tooltips to elements without JS</td>
-																	<td><a href="#" class="icon fa-github"><span class="label">Twitter</span></a></td>
-																</tr>
-																<tr>
-																	<td><a href="https://github.com/jgthms/bulma">Bulma</a></td>
-																	<td> a popular CSS framework based on flexbox</td>
-																	<td><a href="#" class="icon fa-github"><span class="label">Twitter</span></a></td>
-																</tr>
-																<tr>
-																	<td><a href="https://github.com/Dogfalo/materialize">Materialize</a></td>
-																	<td>A modern responsive front-end frameowkr based on Material Design. </td>
-																	<td><a href="#" class="icon fa-github"><span class="label">Twitter</span></a></td>
-																</tr>
-																<tr>
-																	<td><a href="https://github.com/daneden/animate.css">Animate.css</a></td>
-																	<td>a bunch of cool, fun and cross-browser animations to use in your projects.</td>
-																	<td><a href="#" class="icon fa-github"><span class="label">twitter</span></a></td>
-																</tr>
-																<tr>
-																	<td><a href="https://github.com/IanLunn/Hover">Hover.css</a></td>
-																	<td>A collection of CSS3 powered hover effects to be applied to links, buttons, logos, SVG, featured images and so on.</td>
-																	<td><a href="#" class="icon fa-github"><span class="label">twitter</span></a></td>
-																</tr>
-																<tr>
-																	<td><a href="https://github.com/AllThingsSmitty/css-protips">CSS Pro-tips</a></td>
-																	<td> A collection of tips to help take your CSS skills pro.</td>
-																	<td><a href="#" class="icon fa-github"><span class="label">twitter</span></a></td>
+																<tr v-for="(item,index) in items">
+																	<td><a :href="item.url">#{{index+1}}. {{item.name}}</a></td>
+																	<td>{{item.description}}</td>
+																	<td>{{item.date}}</td>
+																	<td><a href="#" class="icon fa-github alert"><span class="label">Twitter</span></a></td>
 																</tr>
 															</tbody>
-															<tfoot>
-																<tr>
-																	<td colspan="2"></td>
-																	
-																</tr>
-															</tfoot>
 														</table>
+														
 													</div> 
 
 								</section>
@@ -131,12 +99,68 @@
 			</div>
 
 		<!-- Scripts -->
+			<script src="assets/js/vue.js"></script>
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.dropotron.min.js"></script>
 			<script src="assets/js/browser.min.js"></script>
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script>
+				var my_items = [
+					{
+						name: "Hamburgers",
+						url: "https://github.com/jonsuh/hamburgers",
+						description: "a collection of CSS-animated hamburger icons.",
+						date: "7/10/2018"
+					},
+					{
+						name: "balloon.css",
+						url: "https://github.com/kazzkiq/balloon.css",
+						description: "Lets you add tooltips to elements without JS",
+						date: "7/10/2018"
+					}
+					{
+						name: "Bulma",
+						url: "https://github.com/jgthms/bulm",
+						description: "a popular CSS framework based on flexbox",
+						date: "7/10/2018"
+					},
+					{
+						name: "Materialize",
+						url: "https://github.com/Dogfalo/materialize",
+						description: "A modern responsive front-end frameowkr based on Material Design.",
+						date: "7/10/2018"
+					}
+					{
+						name: "Animate.css",
+						url: "https://github.com/daneden/animate.css",
+						description: "a bunch of cool, fun and cross-browser animations to use in your projects.",
+						date: "7/10/2018"
+					},
+					{
+						name: "Hover.css",
+						url: "https://github.com/IanLunn/Hover",
+						descripton: "A collection of CSS3 powered hover effects to be applied to links, buttons, logos, SVG, featured images and so on.",
+						date: "7/10/2018"
+					},
+					{
+						name: "CSS Pro-tips",
+						url: "https://github.com/AllThingsSmitty/css-protips",
+						description: "A collection of tips to help take your CSS skills pro.",
+						date: "7/10/2018"
+					}
+				];
+
+				var app = new Vue({
+					el: '#app',
+					data: {
+						item: my_items
+					}
+				});
+
+
+			</script>
 
 	</body>
 </html>
