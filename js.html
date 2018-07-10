@@ -10,6 +10,8 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+		<link rel="stylesheet" href="node_modules/balloon-css/balloon.css">
 	</head>
 	<body class="is-preload">
 
@@ -81,7 +83,7 @@
                                                     <td><a :href="item.url">#{{index+1}}. {{item.name}}</a></td>
                                                     <td>{{item.description}}</td>
                                                     <td>{{item.date}}</td>
-                                                    <td><a href="#" class="icon fa-github"><span class="label">Twitter</span></a></td>
+                                                    <td><a href="#" class="icon fa-github alert"><span class="label">Twitter</span></a></td>
                                                 </tr>
                                             </tbody>
                                             <tfoot>
@@ -110,7 +112,8 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-
+			<script src="assets/js/bootstrap.min.js"></script>
+			<script src="assets/js/bootbox.min.js"></script>
 			<script>
 				var my_items = [
                     {
@@ -156,7 +159,26 @@
                     data: {
                         items: my_items
                     }
-                });
+				});
+				
+
+				$(document).on("click", ".alert", function(e) {
+					bootbox.alert("Hello world", function() {
+						console.log("Alert Callback");
+					});
+				});
+
+
+
+
+
+
+
+
+
+
+
+
 			</script>
 
 	</body>
