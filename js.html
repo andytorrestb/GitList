@@ -63,73 +63,46 @@
 								<section>
 									<header class="main">
 										<h1>JavaScript</h1>
-
-
-
 									</header>
 
-									<h4>7/10/2018</h4>
-													<div class="table-wrapper">
-														<table>
-															<thead>
-																<tr>
-																	<th>Name</th>
-																	<th>Description</th>
-																	<th>Publisher</th>
-																</tr>
-															</thead>
-															<tbody>
-																<tr>
-																	<td><a href="https://github.com/DivanteLtd/vue-storefront">Vue Storefront</a></td>
-																	<td>Open source PWA frontend for eCommerce</td>
-																	<td><a href="#" class="icon fa-github"><span class="label">Twitter</span></a></td>
-																</tr>
-																<tr>
-																	<td><a href=" https://github.com/pedronauck/docz">Docz</a></td>
-																	<td> a package that makes it easy for developers to document progress</td>
-																	<td><a href="#" class="icon fa-github"><span class="label">Twitter</span></a></td>
-																</tr>
-																<tr>
-																	<td><a href="https://github.com/Canner/canner">Canner</a></td>
-																	<td>a universal CMS framework using React & Apollo GraphQL for Prisma, GraphQL, Firebase, Restful API. </td>
-																	<td><a href="#" class="icon fa-github"><span class="label">Twitter</span></a></td>
-																</tr>
-																<tr>
-																	<td><a href="https://github.com/creativetimofficial/material-dashboard">Material Dashboard</a></td>
-																	<td>administration dashboard powered by bootstrap with a design inspired by Google’s famous material design.</td>
-																	<td><a href="#" class="icon fa-github"><span class="label">twitter</span></a></td>
-																</tr>
-																<tr>
-																	<td><a href="https://github.com/kitze/JSUI">JSUI</a></td>
-																	<td>A tool for visually organizing, creating, and managing JS projects</td>
-																	<td><a href="#" class="icon fa-github"><span class="label">twitter</span></a></td>
-																</tr>
-																<tr>
-																	<td><a href="https://github.com/marktext/marktext">MarkText</a></td>
-																	<td> Markdown editor that allows the user to preview text styles updates</td>
-																	<td><a href="#" class="icon fa-github"><span class="label">twitter</span></a></td>
-																</tr>
-																
-															</tbody>
-															<tfoot>
-																<tr>
-																	<td colspan="2"></td>
-																	
-																</tr>
-															</tfoot>
-														</table>
-													</div>
+									<!--<h4>7/10/2018</h4>-->
+                                    <div id="app" class="table-wrapper">
+                                        <table>
+                                            <thead>
+                                                <tr>
+                                                    <th>Name</th>
+                                                    <th>Description</th>
+                                                    <th>Date</th>
+                                                    <th>Publisher</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr v-for="(item,index) in items">
+                                                    <td><a :href="item.url">#{{index+1}}. {{item.name}}</a></td>
+                                                    <td>{{item.description}}</td>
+                                                    <td>{{item.date}}</td>
+                                                    <td><a href="#" class="icon fa-github"><span class="label">Twitter</span></a></td>
+                                                </tr>
+                                            </tbody>
+                                            <tfoot>
+                                                <tr>
+                                                    <td colspan="2"></td>
+                                                </tr>
+                                            </tfoot>
+                                        </table>
+                                    </div>
 
 								</section>
 
 						</div>
 					</div>
 
-			
+
 
 			</div>
 
 		<!-- Scripts -->
+			<script src="assets/js/vue.js"></script>
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.dropotron.min.js"></script>
 			<script src="assets/js/jquery.dropotron.min.js"></script>
@@ -137,6 +110,54 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+
+			<script>
+				var my_items = [
+                    {
+                        name: "Vue Storefront",
+                        url: "https://github.com/DivanteLtd/vue-storefront",
+                        description: "Open source PWA frontend for eCommerce",
+                        date: "7/10/2018"
+                    },
+                    {
+                        name:"Docz",
+                        url: "https://github.com/pedronauck/docz",
+                        description: "a package that makes it easy for developers to document progress",
+                        date: "7/10/2018"
+                    },
+                    {
+                        name: "Canner",
+                        url: "https://github.com/Canner/canner",
+                        description: "a universal CMS framework using React & Apollo GraphQL for Prisma, GraphQL, Firebase, Restful API.",
+                        date: "7/10/2018"
+                    },
+                    {
+                        name: "Material Dashboard",
+                        url: "https://github.com/creativetimofficial/material-dashboard",
+                        description: "administration dashboard powered by bootstrap with a design inspired by Google’s famous material design.",
+                        date: "7/10/2018"
+                    },
+                    {
+                        name: "JSUI",
+                        url: "https://github.com/kitze/JSUI",
+                        description: "A tool for visually organizing, creating, and managing JS projects",
+                        date: "7/10/2018"
+                    },
+                    {
+                        name: "MarkText",
+                        url: "https://github.com/marktext/marktext",
+                        description: "Markdown editor that allows the user to preview text styles updates",
+                        date: "7/10/2018"
+                    }
+				];
+
+                var app = new Vue({
+                    el: '#app',
+                    data: {
+                        items: my_items
+                    }
+                });
+			</script>
 
 	</body>
 </html>
