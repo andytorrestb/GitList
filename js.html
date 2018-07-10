@@ -151,7 +151,9 @@
                         url: "https://github.com/marktext/marktext",
                         description: "Markdown editor that allows the user to preview text styles updates",
                         date: "7/10/2018"
-                    }
+					},
+					
+					createJsRepositoryObject("Andy", "abc", "def", "7/10/2018")
 				];
 
                 var app = new Vue({
@@ -160,6 +162,13 @@
                         items: my_items
                     }
 				});
+
+				function createJsRepositoryObject(name, url, description, date)
+   						{
+							var  repoData = {name:name, url:url, description:description, date:date};
+           					return repoData;   
+						};
+
 				
 
 				$(document).on("click", ".alert", function(e) {
@@ -168,8 +177,7 @@
 					});
 				});
 
-
-
+			
 
 
 
