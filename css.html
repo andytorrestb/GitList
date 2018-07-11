@@ -67,7 +67,7 @@
 
 									</header>
 
-									<h4>7/10/2018</h4>
+							
 													<div id="app" class="table-wrapper">
 														<table>
 															<thead>
@@ -100,7 +100,7 @@
 			</div>
 
 		<!-- Scripts -->
-			<script src="assets/js/vue.js"></script>
+			<script src="https://andytorrestb.github.io/GitList/assets/js/vue.js"></script>
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.dropotron.min.js"></script>
 			<script src="assets/js/browser.min.js"></script>
@@ -109,57 +109,26 @@
 			<script src="assets/js/main.js"></script>
 			<script>
 				var my_items = [
-					{
-						name: "Hamburgers",
-						url: "https://github.com/jonsuh/hamburgers",
-						description: "a collection of CSS-animated hamburger icons.",
-						date: "7/10/2018"
-					},
-					{
-						name: "balloon.css",
-						url: "https://github.com/kazzkiq/balloon.css",
-						description: "Lets you add tooltips to elements without JS",
-						date: "7/10/2018"
-					},
-					{
-						name: "Bulma",
-						url: "https://github.com/jgthms/bulm",
-						description: "a popular CSS framework based on flexbox",
-						date: "7/10/2018"
-					},
-					{
-						name: "Materialize",
-						url: "https://github.com/Dogfalo/materialize",
-						description: "A modern responsive front-end frameowkr based on Material Design.",
-						date: "7/10/2018"
-					},
-					{
-						name: "Animate.css",
-						url: "https://github.com/daneden/animate.css",
-						description: "a bunch of cool, fun and cross-browser animations to use in your projects.",
-						date: "7/10/2018"
-					},
-					{
-						name: "Hover.css",
-						url: "https://github.com/IanLunn/Hover",
-						descripton: "A collection of CSS3 powered hover effects to be applied to links, buttons, logos, SVG, featured images and so on.",
-						date: "7/10/2018"
-					},
-					{
-						name: "CSS Pro-tips",
-						url: "https://github.com/AllThingsSmitty/css-protips",
-						description: "A collection of tips to help take your CSS skills pro.",
-						date: "7/10/2018"
-					}
+					createJsRepositoryObject("Hamburgers", "https://github.com/jonsuh/hamburgers", "a collection of CSS-animated hamburger icons.", "7/10/2018"),
+					createJsRepositoryObject("balloon.css", "https://github.com/kazzkiq/balloon.css", "Lets you add tooltips to elements without JS", "7/10/2018"),
+					createJsRepositoryObject("Bulma", "https://github.com/jgthms/bulm", "a popular CSS framework based on flexbox", "7/10/2018"),
+					createJsRepositoryObject("Materialize", "https://github.com/Dogfalo/materialize", "A modern responsive front-end framework based on Material Design.", "7/10/2018"),
+					createJsRepositoryObject("Animate.css", "https://github.com/daneden/animate.css", "a bunch of cool, fun and cross-browser animations to use in your projects.", "7/10/2018"),
+					createJsRepositoryObject("Hover.css", "https://github.com/IanLunn/Hover", "A collection of CSS3 powered hover effects to be applied to links, buttons, logos, SVG, featured images and so on.", "7/10/2018"),
+					createJsRepositoryObject( "CSS Pro-tips","https://github.com/AllThingsSmitty/css-protips", "A collection of tips to help take your CSS skills pro.", "7/10/2018")
 				];
 
 				var app = new Vue({
 					el: '#app',
 					data: {
-						item: my_items
+						items: my_items
 					}
 				});
 
+				function createJsRepositoryObject(name, url, description, date){
+							var  repoData = {name:name, url:url, description:description, date:date};
+           					return repoData;   
+						};
 
 			</script>
 

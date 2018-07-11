@@ -41,7 +41,7 @@
 									<li>
 										<a href="#">DIY</a>
 										<ul>
-												<li><a href="https://github.com/danistefanovic/build-your-own-x">Build your own ______.</a></li>
+											<li><a href="https://github.com/danistefanovic/build-your-own-x">Build your own ______.</a></li>
 											<li><a href="https://github.com/kamranahmedse/developer-roadmap">Web Dev Roadmap 2018</a></li>
 											<li><a href="https://github.com/sahat/hackathon-starter">Hackathon Starter</a></li>
 											<li><a href="https://github.com/tuvtran/project-based-learning">Truvtran Project Based Learning</a></li>
@@ -65,98 +65,26 @@
 
 									</header>
 
-									<h4>7/10/2018</h4>
-													<div class="table-wrapper">
+									
+													<div id="app" class="table-wrapper">
 														<table>
 															<thead>
 																<tr>
 																	<th>Name</th>
 																	<th>Description</th>
+																	<th>Date</th>
 																	<th>Publisher</th>
 																</tr>
 															</thead>
 															<tbody>
-																<tr>
-																	<td><a href="https://github.com/sandstorm/UserManagement">User Managenet Package</a></td>
-																	<td>provides front end building blocks for setting up a user management system</td>
+																<tr v-for="(item,index) in items">
+																	<td><a :href="item.url">#{{index + 1}}. {{item.name}}</a></td>
+																	<td>{{item.description}}</td>
+																	<td>{{item.date}}</td>
 																	<td><a href="#" class="icon fa-github"><span class="label">Twitter</span></a></td>
 																</tr>
-																<tr>
-																	<td><a href="https://github.com/PHPMailer/PHPMailer">PHP Mailer</a></td>
-																	<td> full featured email creation and transfer class for PHP</td>
-																	<td><a href="#" class="icon fa-github"><span class="label">Twitter</span></a></td>
-																</tr>
-																<tr>
-																	<td><a href=" https://github.com/CachetHQ/Cachet">Cachet</a></td>
-																	<td>  open source status page system used to update teams on the status of websites (?)</td>
-																	<td><a href="#" class="icon fa-github"><span class="label">Twitter</span></a></td>
-																</tr>
-																<tr>
-																	<td><a href="https://github.com/domnikl/DesignPatternsPHP">Design Patterns PHP</a></td>
-																	<td>A collection of known design patterns and some sample code how to implement them in PHP. </td>
-																	<td><a href="#" class="icon fa-github"><span class="label">Twitter</span></a></td>
-																</tr>
-																<tr>
-																	<td><a href="https://github.com/gabrielrcouto/php-gui">PHP GUI</a></td>
-																	<td>allows developers to easily create GUI’s using PHP</td>
-																	<td><a href="#" class="icon fa-github"><span class="label">twitter</span></a></td>
-																</tr>
-																<tr>
-																	<td><a href="https://github.com/nunomaduro/laravel-code-analyse">Laravel Code Analyse</a></td>
-																	<td> A package and wrapper for Laravel  for discovering bugs in your code without running it. This package is still in development, Do not use. </td>
-																	<td><a href="#" class="icon fa-github"><span class="label">twitter</span></a></td>
-																</tr>
-																<tr>
-																	<td><a href="https://github.com/nikic/PHP-Parser">PHP Parser</a></td>
-																	<td> written to simplify static code analysis and manipulation</td>
-																	<td><a href="#" class="icon fa-github"><span class="label">twitter</span></a></td>
-																</tr>
-																<tr>
-																	<td><a href="https://github.com/swiftmailer/swiftmailer">Swift Mailer</a></td>
-																	<td>A component based mailing solution for PHP 7. It is highly object oriented by design and meant for use in complex web applications with a great deal of flexibility. </td>
-																	<td><a href="#" class="icon fa-github"><span class="label">twitter</span></a></td>
-																</tr>
-																<tr>
-																	<td><a href="https://github.com/Seldaek/monolog">Monolog</a></td>
-																	<td>Sends your logs to files, sockets, inboxes, databases, and other web services. Special handlers allow for advanced logging strategies. </td>
-																	<td><a href="#" class="icon fa-github"><span class="label">twitter</span></a></td>
-																</tr>
-																<tr>
-																	<td><a href="https://github.com/sebastianbergmann/phpunit">PHP Unit</a></td>
-																	<td>A programmer oriented testing framework for PHP.   </td>
-																	<td><a href="#" class="icon fa-github"><span class="label">twitter</span></a></td>
-																</tr>
-																<tr>
-																	<td><a href="https://github.com/composer/composer">Composer</a></td>
-																	<td>Dependency management for PHP. Helps declare, manage, and install dependencies for PHP projects
-																	</td>
-																	<td><a href="#" class="icon fa-github"><span class="label">twitter</span></a></td>
-																</tr>
-																<tr>
-																	<td><a href="https://github.com/fzaninotto/Faker">Faker</a></td>
-																	<td>a PHP library that generates fake data for you. 
-																	</td>
-																	<td><a href="#" class="icon fa-github"><span class="label">twitter</span></a></td>
-																</tr>
-																<tr>
-																	<td><a href="https://github.com/briannesbitt/Carbon">Carbon</a></td>
-																	<td>a PHP library that generates fake data for you. 
-																	</td>
-																	<td><a href="#" class="icon fa-github"><span class="label">twitter</span></a></td>
-																</tr>
-																<tr>
-																	<td><a href="https://github.com/egulias/EmailValidator">EmailValidator</a></td>
-																	<td>a PHP email validator
-																	</td>
-																	<td><a href="#" class="icon fa-github"><span class="label">twitter</span></a></td>
-																</tr>
+																
 															</tbody>
-															<tfoot>
-																<tr>
-																	<td colspan="2"></td>
-																	
-																</tr>
-															</tfoot>
 														</table>
 													</div>
 
@@ -170,12 +98,44 @@
 			</div>
 
 		<!-- Scripts -->
+			<script src="assets/js/vue.js"></script>
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.dropotron.min.js"></script>
 			<script src="assets/js/browser.min.js"></script>
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script>
+				var my_items = [
+					createJsRepositoryObject("User Managenet Package", "https://github.com/sandstorm/UserManagement", "provides front end building blocks for setting up a user management system", "7/10/2018"),
+					createJsRepositoryObject("PHP Mailer", "https://github.com/PHPMailer/PHPMailer", "full featured email creation and transfer class for PHP", "7/10/2018"),
+					createJsRepositoryObject("Cachet", "https://github.com/CachetHQ/Cachet", "open source status page system used to update teams on the status of websites (?)open source status page system used to update teams on the status of websites (?)", "7/10/2018"),
+					createJsRepositoryObject("Design Patterns PHP", "https://github.com/domnikl/DesignPatternsPHP", "A collection of known design patterns and some sample code how to implement them in PHP.", "7/10/2018"),
+					createJsRepositoryObject("PHP GUI", "https://github.com/gabrielrcouto/php-gui", "allows developers to easily create GUI’s using PHP", "7/10/2018"),
+					createJsRepositoryObject("Laravel Code Analyse", "https://github.com/nunomaduro/laravel-code-analyse", "A package and wrapper for Laravel for discovering bugs in your code without running it. This package is still in development, Do not use.", "7/10/2018"),
+					createJsRepositoryObject("PHP Parser", "https://github.com/nikic/PHP-Parser", "written to simplify static code analysis and manipulation", "7/10/2018"),
+					createJsRepositoryObject("Swift Mailer", "https://github.com/swiftmailer/swiftmailer", "A component based mailing solution for PHP 7. It is highly object oriented by design and meant for use in complex web applications with a great deal of flexibility.", "7/10/2018"),
+					createJsRepositoryObject("Monolog", "https://github.com/Seldaek/monolog", "Sends your logs to files, sockets, inboxes, databases, and other web services. Special handlers allow for advanced logging strategies.", "7/10/2018"),
+					createJsRepositoryObject("PHP Unit", "https://github.com/sebastianbergmann/phpunit", "A programmer oriented testing framework for PHP.", "7/10/2018"),
+					createJsRepositoryObject("Composer", "https://github.com/composer/composer", "Dependency management for PHP. Helps declare, manage, and install dependencies for PHP projects", "7/10/2018"),
+					createJsRepositoryObject("Faker", "https://github.com/fzaninotto/Faker", "a PHP library that generates fake data for you.", "7/10/2018"),
+					createJsRepositoryObject("Carbon", "https://github.com/fzaninotto/Faker", "A simple API rxtension for DateTime", "7/10/2018"),
+					createJsRepositoryObject("EmailValidator", "https://github.com/egulias/EmailValidator", "a PHP email validator", "7/10/2018")
+
+				];
+
+				var app = new Vue({
+					el: '#app',
+					data: {
+						items: my_items
+					}
+				});
+
+				function createJsRepositoryObject(name, url, description, date) {
+						var repoData = {name, url, description, date};
+						return repoData;
+				};
+			</script>
 
 	</body>
 </html>

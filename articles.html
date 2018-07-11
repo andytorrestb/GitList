@@ -68,36 +68,25 @@
 
 									</header>
 
-									<h4>7/10/2018</h4>
-													<div class="table-wrapper">
+													<div id="app" class="table-wrapper">
 														<table>
 															<thead>
 																<tr>
 																	<th>Source</th>
 																	<th>Description</th>
 																	<th>Tech Used</th>
+																	<th>Date</th>
+																	
 																</tr>
 															</thead>
 															<tbody>
-																<tr>
-																	<td><a href="https://hackernoon.com/15-html-element-methods-youve-potentially-never-heard-of-fc6863e41b2a">Hackernoon</a></td>
-																	<td> 15 JavaScript methods for interacting with HTML elements </td>
-																	<td><span class="label">HTML, JS</span></td>
-																</tr>
-																<tr>
-																	<td><a href="https://medium.freecodecamp.org/learn-these-javascript-fundamentals-and-become-a-better-developer-2a031a0dc9cf">FreeCodeCamp</a></td>
-																	<td>A short review of Javascript's fundamentals. Topics covered are primitives, objects, variables, and functions.</td>
-																	<td><span class="label">JS</span></td>
-																</tr>
-																
-																
+																<tr v-for="(item,index) in items">
+																	<td><a :href="item.url">#{{index+1}}. {{item.source}}</a></td>
+																	<td>{{item.description}}</td>
+																	<td>{{item.date}}</td>
+																	<td>{{item.techUsed}}</td>
+																</tr>																
 															</tbody>
-															<tfoot>
-																<tr>
-																	<td colspan="2"></td>
-																	
-																</tr>
-															</tfoot>
 														</table>
 													</div>
 
@@ -111,6 +100,7 @@
 			</div>
 
 		<!-- Scripts -->
+			<script src="assets/js/vue.js"></script>
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.dropotron.min.js"></script>
 			<script src="assets/js/jquery.dropotron.min.js"></script>
@@ -118,6 +108,26 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script>
+
+				var my_items = [
+					createJsRepositoryObject("Hackernoon", "https://hackernoon.com/15-html-element-methods-youve-potentially-never-heard-of-fc6863e41b2a", "15 JavaScript methods for interacting with HTML elements", "7/10/2018", "HTML, JS"),
+					createJsRepositoryObject("FreeCodeCamp", "https://medium.freecodecamp.org/learn-these-javascript-fundamentals-and-become-a-better-developer-2a031a0dc9cf", "A short review of Javascript's fundamentals. Topics covered are primitives, objects, variables, and functions.", "7/10/2018", "JS")
+				];
+
+				var app = new Vue({
+					el: '#app',
+					data: {
+						items: my_items
+					}
+				});
+
+				function createJsRepositoryObject(source, url, description, date, techUsed) 
+					{
+						var repoData = {source:source, url:url, description:description, data:date, techUsed:techUsed};
+						return repoData;
+					}
+			</script>
 
 	</body>
 </html>
