@@ -107,21 +107,20 @@
 			<script src="assets/js/main.js"></script>
 			<script>
 				var my_items = [
-					createJsRepositoryObject("User Managenet Package", "https://github.com/sandstorm/UserManagement", "provides front end building blocks for setting up a user management system", "7/10/2018"),
-					createJsRepositoryObject("PHP Mailer", "https://github.com/PHPMailer/PHPMailer", "full featured email creation and transfer class for PHP", "7/10/2018"),
-					createJsRepositoryObject("Cachet", "https://github.com/CachetHQ/Cachet", "open source status page system used to update teams on the status of websites (?)open source status page system used to update teams on the status of websites (?)", "7/10/2018"),
-					createJsRepositoryObject("Design Patterns PHP", "https://github.com/domnikl/DesignPatternsPHP", "A collection of known design patterns and some sample code how to implement them in PHP.", "7/10/2018"),
-					createJsRepositoryObject("PHP GUI", "https://github.com/gabrielrcouto/php-gui", "allows developers to easily create GUI’s using PHP", "7/10/2018"),
-					createJsRepositoryObject("Laravel Code Analyse", "https://github.com/nunomaduro/laravel-code-analyse", "A package and wrapper for Laravel for discovering bugs in your code without running it. This package is still in development, Do not use.", "7/10/2018"),
-					createJsRepositoryObject("PHP Parser", "https://github.com/nikic/PHP-Parser", "written to simplify static code analysis and manipulation", "7/10/2018"),
-					createJsRepositoryObject("Swift Mailer", "https://github.com/swiftmailer/swiftmailer", "A component based mailing solution for PHP 7. It is highly object oriented by design and meant for use in complex web applications with a great deal of flexibility.", "7/10/2018"),
-					createJsRepositoryObject("Monolog", "https://github.com/Seldaek/monolog", "Sends your logs to files, sockets, inboxes, databases, and other web services. Special handlers allow for advanced logging strategies.", "7/10/2018"),
-					createJsRepositoryObject("PHP Unit", "https://github.com/sebastianbergmann/phpunit", "A programmer oriented testing framework for PHP.", "7/10/2018"),
-					createJsRepositoryObject("Composer", "https://github.com/composer/composer", "Dependency management for PHP. Helps declare, manage, and install dependencies for PHP projects", "7/10/2018"),
-					createJsRepositoryObject("Faker", "https://github.com/fzaninotto/Faker", "a PHP library that generates fake data for you.", "7/10/2018"),
-					createJsRepositoryObject("Carbon", "https://github.com/fzaninotto/Faker", "A simple API rxtension for DateTime", "7/10/2018"),
-					createJsRepositoryObject("EmailValidator", "https://github.com/egulias/EmailValidator", "a PHP email validator", "7/10/2018")
-
+					createJsRepositoryObject("User Managenet Package", "sandstorm/UserManagement", "provides front end building blocks for setting up a user management system", "7/10/2018"),
+					createJsRepositoryObject("PHP Mailer", "PHPMailer/PHPMailer", "full featured email creation and transfer class for PHP", "7/10/2018"),
+					createJsRepositoryObject("Cachet", "CachetHQ/Cachet", "open source status page system used to update teams on the status of websites (?)open source status page system used to update teams on the status of websites (?)", "7/10/2018"),
+					createJsRepositoryObject("Design Patterns PHP", "domnikl/DesignPatternsPHP", "A collection of known design patterns and some sample code how to implement them in PHP.", "7/10/2018"),
+					createJsRepositoryObject("PHP GUI", "gabrielrcouto/php-gui", "allows developers to easily create GUI’s using PHP", "7/10/2018"),
+					createJsRepositoryObject("Laravel Code Analyse", "nunomaduro/laravel-code-analyse", "A package and wrapper for Laravel for discovering bugs in your code without running it. This package is still in development, Do not use.", "7/10/2018"),
+					createJsRepositoryObject("PHP Parser", "nikic/PHP-Parser", "written to simplify static code analysis and manipulation", "7/10/2018"),
+					createJsRepositoryObject("Swift Mailer", "swiftmailer/swiftmailer", "A component based mailing solution for PHP 7. It is highly object oriented by design and meant for use in complex web applications with a great deal of flexibility.", "7/10/2018"),
+					createJsRepositoryObject("Monolog", "Seldaek/monolog", "Sends your logs to files, sockets, inboxes, databases, and other web services. Special handlers allow for advanced logging strategies.", "7/10/2018"),
+					createJsRepositoryObject("PHP Unit", "sebastianbergmann/phpunit", "A programmer oriented testing framework for PHP.", "7/10/2018"),
+					createJsRepositoryObject("Composer", "composer/composer", "Dependency management for PHP. Helps declare, manage, and install dependencies for PHP projects", "7/10/2018"),
+					createJsRepositoryObject("Faker", "fzaninotto/Faker", "a PHP library that generates fake data for you.", "7/10/2018"),
+					createJsRepositoryObject("Carbon", "fzaninotto/Faker", "A simple API rxtension for DateTime", "7/10/2018"),
+					createJsRepositoryObject("EmailValidator", "egulias/EmailValidator", "a PHP email validator", "7/10/2018")
 				];
 
 				var app = new Vue({
@@ -132,6 +131,7 @@
 				});
 
 				function createJsRepositoryObject(name, url, description, date) {
+						url = "https://github.com/"+ url;
 						var repoData = {name, url, description, date};
 						return repoData;
 				};
