@@ -266,12 +266,12 @@
 			});
 
 	// Slider.
-		$banner
-			._slider(settings.banner);
+	//	$banner
+	//		._slider(settings.banner);
 
 	// Menu.
-		$('<a href="#navPanel" class="navPanelToggle">Menu</a>')
-			.appendTo($header);
+	//	$('<a href="#navPanel" class="navPanelToggle">Menu</a>')
+	//		.appendTo($header);
 
 		$('<div id="navPanel">' + '<nav>' + $('#nav').navList() + '</nav>' + '<a href="#navPanel" class="close"></a>' + '</div>')
 			.appendTo($body)
