@@ -101,7 +101,7 @@
 			</div>
 
 		<!-- Scripts -->
-			<script src="https://andytorrestb.github.io/GitList/assets/js/vue.js"></script>
+			<script src="assets/js/vue.js"></script>
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.dropotron.min.js"></script>
 			<script src="assets/js/browser.min.js"></script>
@@ -110,6 +110,11 @@
 			<script src="assets/js/main.js"></script>
 			<script>
 
+				
+			$.getJSON('data/css-repositories.json', function(data) {
+					app.items = data;
+			});
+
 				var app = new Vue({
 					el: '#app',
 					data: {
@@ -117,13 +122,10 @@
 					}
 				});
 
-			$(document).ready(function(){
+			
 
-			$.getJSON('data/css-repositories.json', function(data) {
-					app.items = data;
-			});
 
-				});
+
 
 			</script>
 
