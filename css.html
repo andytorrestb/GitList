@@ -109,31 +109,17 @@
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
 			<script>
-				var my_items = [
-					createJsRepositoryObject("Hamburgers", "jonsuh/hamburgers", "a collection of CSS-animated hamburger icons.", "7/10/2018"),
-					createJsRepositoryObject("balloon.css", "kazzkiq/balloon.css", "Lets you add tooltips to elements without JS", "7/10/2018"),
-					createJsRepositoryObject("Bulma", "jgthms/bulma", "a popular CSS framework based on flexbox", "7/10/2018"),
-					createJsRepositoryObject("Materialize", "Dogfalo/materialize", "A modern responsive front-end framework based on Material Design.", "7/10/2018"),
-					createJsRepositoryObject("Animate.css", "daneden/animate.css", "a bunch of cool, fun and cross-browser animations to use in your projects.", "7/10/2018"),
-					createJsRepositoryObject("Hover.css", "IanLunn/Hover", "A collection of CSS3 powered hover effects to be applied to links, buttons, logos, SVG, featured images and so on.", "7/10/2018"),
-					createJsRepositoryObject( "CSS Pro-tips","AllThingsSmitty/css-protips", "A collection of tips to help take your CSS skills pro.", "7/10/2018"),
-					createJsRepositoryObject("CSS-Toolkit", "basscss/basscss", "Lightning-fast modular CSS with no side effects", "7/12/2018"), 
-					createJsRepositoryObject("Colors.css", "mrmrs/colors", "Better default colors for the web. A collection of skin classes for faster prototyping and nicer looking sites.", "7/12/2018"),
-					createJsRepositoryObject("SubtlePatterns", "atlemo/SubtlePatterns", "background images, for adding texture to websites", "7/10/2018")
-				];
 
 				var app = new Vue({
 					el: '#app',
 					data: {
-						items: my_items
+						items: []
 					}
 				});
 
-				function createJsRepositoryObject(name, url, description, date){
-							url = 'https://github.com/' + url;
-							var  repoData = {name:name, url:url, description:description, date:date};
-           					return repoData;   
-						};
+			$.getJSON('data/css-repositories.json', function(data) {
+					app.items = data;
+			});
 
 			</script>
 
