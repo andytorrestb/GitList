@@ -116,28 +116,24 @@
 			<script src="assets/js/bootstrap.min.js"></script>
 			<script src="assets/js/bootbox.min.js"></script>
 			<script>
-				var my_items = [
-					createJsRepositoryObject("Vue Storefront", "DivanteLtd/vue-storefront", "Open source PWA frontend for eCommerce", "7/10/2018"),
-					createJsRepositoryObject("Docz", "pedronauck/docz", "a package that makes it easy to document progress", "7/10/2018"),
-					createJsRepositoryObject("Canner", "Canner/canner", "a universal CMS framework using React & Apollo GraphQL for Prisma, GraphQL, Firebase, Restful API.", "7/10/2018"),
-					createJsRepositoryObject("Material Dashboard", "creativetimofficial/material-dashboard", "administration dashboard powered by bootstrap with a design inspired by Google’s famous material design.", "7/10/2018"),
-					createJsRepositoryObject("JSUI", "kitze/JSUI", "A tool for visually organizing, creating, and managing JS projects", "7/10/2018"),
-					createJsRepositoryObject("MarkText", "marktext/marktext", "Markdown editor that allows the user to preview text styles updates", "7/10/2018")
-				];
+			
+
+
+
+    $.getJSON('data/javascript-repositories.json', function(data) {
+                    app.items = data;
+                });
+
+
+
 
                 var app = new Vue({
                     el: '#app',
                     data: {
-                        items: my_items
+                        items: []
                     }
 				});
 
-				function createJsRepositoryObject(name, url, description, date)
-   						{
-							url = 'https://github.com/' + url;
-							var  repoData = {name:name, url:url, description:description, date:date};
-           					return repoData;   
-						};
 
 				
 
