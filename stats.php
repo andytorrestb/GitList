@@ -15,11 +15,6 @@
                     <div id="main">
                         <div class="inner">
 
-                            <!-- Header-->
-                                <header id="header">
-                                    <span class="logo">
-                                        <a href="/Gitlist/index.html">Lit Gits</a>
-                                    </span>
                     <?php include(__DIR__.'/includes/navbar.php'); ?>
                                 </header>
 

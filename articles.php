@@ -1,4 +1,4 @@
-<!DOCTYPE HTML>
+ <!DOCTYPE HTML>
 <!--
 	Editorial by Pixelarity
 	pixelarity.com | hello@pixelarity.com
@@ -16,22 +16,14 @@
 		<!-- Wrapper -->
 			<div id="wrapper">
 
-				<!-- Main -->
+			<!-- Main -->
 					<div id="main">
 						<div class="inner">
 
 							<!-- Header -->
 								<header id="header">
 
-									
-<!-- Logo -->
-<span class="logo">
-		<a href="index.html">Lit Gits</a>
-		<span></span>
-	</span>
-
-									
-										<!-- Nav -->
+								
 				<?php include(__DIR__.'/includes/navbar.php'); ?>
 								</header>
 

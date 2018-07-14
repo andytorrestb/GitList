@@ -23,15 +23,6 @@
 							<!-- Header -->
 								<header id="header">
 
-									
-<!-- Logo -->
-<span class="logo">
-		<a href="index.php">Lit Gits</a>
-		<span></span>
-	</span>
-
-									
-										<!-- Nav -->
 				<?php include(__DIR__.'/includes/navbar.php'); ?>
 								</header>
 
