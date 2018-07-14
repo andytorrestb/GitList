@@ -26,7 +26,7 @@
 									
 <!-- Logo -->
 <span class="logo">
-		<a href="index.html">Lit Gits</a>
+		<a href="index.php">Lit Gits</a>
 		<span></span>
 	</span>
 
