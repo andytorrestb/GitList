@@ -1,0 +1,80 @@
+[
+    {
+        "source": "Hackernoon",
+        "url": "https://hackernoon.com/15-html-element-methods-youve-potentially-never-heard-of-fc6863e41b2a",
+        "description": "5 JavaScript methods for interacting with HTML elements",
+        "date": "7/12/2018",
+        "techUsed": "HTML, JS"
+    },
+    {
+        "source": "FreeCodeCamp",
+        "url": "https://medium.freecodecamp.org/learn-these-javascript-fundamentals-and-become-a-better-developer-2a031a0dc9cf",
+        "description": "A short review of Javascript's fundamentals. Topics covered are primitives, objects, variables, and functions.",
+        "date": "7/12/2018",
+        "techUsed": "JS"
+    },
+    {
+        "source": "FreeCodeCamp",
+        "url": "https://medium.freecodecamp.org/learn-these-javascript-fundamentals-and-become-a-better-developer-2a031a0dc9cf",
+        "description": "A short review of Javascript's fundamentals. Topics covered are primitives, objects, variables, and functions.",
+        "date": "7/12/2018",
+        "techUsed": "JS"
+    },
+    {
+        "source": "Github",
+        "url": "https://guides.github.com/features/wikis/", 
+        "description": "A simple guide for documenting projects on Github",
+        "date": "7/12/2018",
+        "techUsed": "Git"
+    },
+    {
+        "source": "Dev.to",
+        "url": "https://dev.to/pratikaambani/a-meaningful-readmemd-565a", 
+        "description": "A more in depth guide to documenting projects",
+        "date": "7/12/2018",
+        "techUsed": "Git"
+    },
+    {
+        "source": "FreeCodeCamp",
+        "url": "https://medium.freecodecamp.org/a-massive-free-guide-to-css-flexbox-c6e009d33bf8", 
+        "description": "A free massive guide to CSS Flexbox",
+        "date": "7/12/2018",
+        "techUsed": "CSS"
+    },
+    {
+        "source": "AllPHPTricks",
+        "url": "https://www.allphptricks.com/create-simple-pagination-using-php-and-mysqli/", 
+        "description": "A tutorial for building a simple pagination using PHP nd mySQL",
+        "date": "7/12/2018",
+        "techUsed": "PHP, mySQL"
+    },
+    {
+        "source": "FreeCodeCamp",
+        "url": "https://medium.freecodecamp.org/stepping-up-your-javascript-debugging-skills-cb37355ea9a9", 
+        "description": "A guide for debugging Javascript. Topics covered include rubber duck debugging, logging, and more!",
+        "date": "7/13/2018",
+        "techUsed": "JS"
+    },
+    {
+        "source": "FreeCodeCamp",
+        "url": "https://medium.freecodecamp.org/javascript-booleans-explained-by-going-to-court-a0ca1149a0dc", 
+        "description": "Javascript booleans explained by going to court",
+        "date": "7/13/2018",
+        "techUsed": "JS"
+    },
+    {
+        "source": "Hackernoon",
+        "url": "https://hackernoon.com/the-little-guide-of-queue-in-javascript-4f67e79260d9",
+        "description": "a short explenation on how the queue data structure works",
+        "date": "7/13/2018",
+        "techUsed":"JS"
+    },
+    {
+        "source": "cmu.edu",
+        "url": "https://www.cs.cmu.edu/~adamchik/15-121/lectures/Stacks%20and%20Queues/Stacks%20and%20Queues.html",
+        "description": "a lecture from Carnegie Mellon University explaining the stack data structure",
+        "date":"7/13/2018",
+        "techUsed":"JS"
+    }
+
+]

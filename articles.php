@@ -79,27 +79,19 @@
 			<?php include(__DIR__.'/includes/scripts.php'); ?>
 			<script>
 
-				var my_items = [
-					createJsRepositoryObject("Hackernoon", "https://hackernoon.com/15-html-element-methods-youve-potentially-never-heard-of-fc6863e41b2a", "15 JavaScript methods for interacting with HTML elements", "7/10/2018", "HTML, JS"),
-					createJsRepositoryObject("FreeCodeCamp", "https://medium.freecodecamp.org/learn-these-javascript-fundamentals-and-become-a-better-developer-2a031a0dc9cf", "A short review of Javascript's fundamentals. Topics covered are primitives, objects, variables, and functions.", "7/10/2018", "JS"),
-					createJsRepositoryObject("Github", "https://guides.github.com/features/wikis/", "A simple guide for documenting projects on Github", "7/12/2018", "Git"),
-					createJsRepositoryObject("Dev.to", "https://dev.to/pratikaambani/a-meaningful-readmemd-565a", "A more in depth guide to documenting projects", "7/12/2018", "Git"),
-					createJsRepositoryObject("FreeCodeCamp", "https://medium.freecodecamp.org/a-massive-free-guide-to-css-flexbox-c6e009d33bf8", "A free massive guide to CSS Flexbox", "7/12/2018", "CSS"),
-					createJsRepositoryObject("AllPHPTricks", "https://www.allphptricks.com/create-simple-pagination-using-php-and-mysqli/", "7/12/2018", "PHP")
-				];
+
+				$.getJSON('data/articles.json', function(data){
+							app.items = data;
+				});
 
 				var app = new Vue({
 					el: '#app',
 					data: {
-						items: my_items
+						items: []
 					}
 				});
 
-				function createJsRepositoryObject(source, url, description, date, techUsed) 
-					{
-						var repoData = {source:source, url:url, description:description, data:date, techUsed:techUsed};
-						return repoData;
-					}
+				
 			</script>
 
 	</body>
