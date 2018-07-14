@@ -33,33 +33,8 @@
 	</span>
 
 									
-										<!-- Nav -->
-					<nav id="nav">
-						<ul>
-							<li><a href="index.html">Home</a></li>
-							<li>
-								<a href="#" class="icon fa-angle-down">Gits</a>
-								<ul>
-									<li><a href="css.html">CSS</a></li>
-									<li><a href="js.html">JavaScript</a></li>
-									<li><a href="php.html">PHP</a></li>
-									<li>
-										<a href="#">DIY</a>
-										<ul>
-												<li><a href="https://github.com/danistefanovic/build-your-own-x">Build your own ______.</a></li>
-												<li><a href="https://github.com/kamranahmedse/developer-roadmap">Web Dev Roadmap 2018</a></li>
-												<li><a href="https://github.com/sahat/hackathon-starter">Hackathon Starter</a></li>
-												<li><a href="https://github.com/tuvtran/project-based-learning">Truvtran Project Based Learning</a></li>
-												<li><a href="https://github.com/h5bp/html5-boilerplate">HTML5 Boilerplate</a></li>
-										</ul>
-									</li>
-								</ul>
-							</li>
-							<li><a href="articles.html">Articles</a></li>
-							<li><a href="stats.html">Stats</a></li>
-							
-						</ul>
-					</nav>
+					<!-- Nav -->
+					<?php include(__DIR__.'/includes/navbar.php'); ?>
 								</header>
 
 							<!-- Content -->
@@ -105,16 +80,7 @@
 			</div>
 
 		<!-- Scripts -->
-			<script src="assets/js/vue.js"></script>
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.dropotron.min.js"></script>
-			<script src="assets/js/jquery.dropotron.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-			<script src="assets/js/bootstrap.min.js"></script>
-			<script src="assets/js/bootbox.min.js"></script>
+			<?php include(__DIR__.'/includes/'); ?>
 			<script>
 			
 

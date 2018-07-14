@@ -9,7 +9,8 @@
 		<title>Untitled</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
+		<<link rel="stylesheet" href="assets/css/main.css" />
+
 	</head>
 	<body class="is-preload">
 
@@ -29,31 +30,7 @@
 						</span>
 	
 					<!-- Nav -->
-						<nav id="nav">
-							<ul>
-								<li><a href="index.html">Home</a></li>
-								<li>
-									<a href="#" class="icon fa-angle-down">Gits</a>
-									<ul>
-										<li><a href="css.html">CSS</a></li>
-										<li><a href="js.html">JavaScript</a></li>
-										<li><a href="php.html">PHP</a></li>
-										<li>
-											<a href="#">DIY</a>
-											<ul>
-												<li><a href="https://github.com/danistefanovic/build-your-own-x">Build your own ______.</a></li>
-												<li><a href="https://github.com/kamranahmedse/developer-roadmap">Web Dev Roadmap 2018</a></li>
-												<li><a href="https://github.com/sahat/hackathon-starter">Hackathon Starter</a></li>
-												<li><a href="https://github.com/tuvtran/project-based-learning">Truvtran Project Based Learning</a></li>>
-											</ul>
-										</li>
-									</ul>
-								</li>
-								<li><a href="generic.html">Articles</a></li>
-								<li><a href="stats.html">Stats</a></li>
-								
-							</ul>
-						</nav>
+<?php include(__DIR__.'/includes/navbar.php'); ?>
 	
 	
 								</header>
@@ -98,12 +75,9 @@
 			</div>
 
 		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.dropotron.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
+		<?php includes('includes/scripts.php'); ?>
+	<script>
+		var myarr = [ 1, 2, 3];
+	</script>
 	</body>
 </html>
