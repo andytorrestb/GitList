@@ -1,17 +1,13 @@
 <!DOCTYPE HTML>
-<!--
-	Editorial by Pixelarity
-	pixelarity.com | hello@pixelarity.com
-	License: pixelarity.com/license
--->
 <html>
 	<head>
 		<title>Lit Gits</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
-		<link rel="stylesheet" href="node_modules/balloon-css/balloon.css"
+		<link rel="stylesheet" href="node_modules/balloon-css/balloon.css">
 	</head>
+
 	<body class="is-preload">
 
 		<!-- Wrapper -->
@@ -22,13 +18,11 @@
 						<div class="inner">
 
 							<!-- Header -->
-			<header id="header">
-
+							<header id="header">
 			
-				<?php include(__DIR__.'/includes/navbar.php'); ?>
+								<?php include(__DIR__.'/includes/navbar.php'); ?>
 
-
-			</header>
+							</header>			
 
 							<!-- Banner -->
 								<section id="banner">
@@ -58,27 +52,27 @@
 									</header>
 									<div class="posts">
 										<article>
-											<a href="css.html" class="image"><img src="images/css3.jpg" alt="" /></a>
+											<a href="css.php" class="image"><img src="images/css3.jpg" alt="" /></a>
 											<h3>Cascading Style Sheets</h3>
 											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
 											<ul class="actions">
-												<li><a href="css.html" class="button">More</a></li>
+												<li><a href="css.php" class="button">More</a></li>
 											</ul>
 										</article>
 										<article>
-											<a href="js.html" class="image"><img src="images/js.jpg" alt="" /></a>
+											<a href="js.php" class="image"><img src="images/js.jpg" alt="" /></a>
 											<h3>Javascript</h3>
 											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
 											<ul class="actions">
-												<li><a href="js.html" class="button">More</a></li>
+												<li><a href="js.php" class="button">More</a></li>
 											</ul>
 										</article>
 										<article>
-											<a href="php.html" class="image"><img src="images/php.jpg" alt="" /></a>
+											<a href="php.php" class="image"><img src="images/php.jpg" alt="" /></a>
 											<h3>PHP Hypetext Protocol</h3>
 											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
 											<ul class="actions">
-												<li><a href="php.html" class="button">More</a></li>
+												<li><a href="php.php" class="button">More</a></li>
 											</ul>
 										</article>
 										<!--
@@ -119,7 +113,7 @@
 			</div>
 
 		<!-- Scripts -->
-<?php include(__DIR__.'/includes/scripts.php'); ?>
+		<?php include(__DIR__.'/includes/scripts.php'); ?>
 
 	</body>
 </html>

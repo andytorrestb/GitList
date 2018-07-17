@@ -1,0 +1,22 @@
+[
+    {
+        "name": "PSR-2: Coding Style Guide",
+        "url": "https://www.php-fig.org/psr/psr-2/",
+        "techUsed": "PHP"
+    
+    },
+    {
+        "name": "HTML5 Style Guide",
+        "url": "https://www.w3schools.com/html/html5_syntax.asp/",
+        "techUsed": "HTML"
+    
+    },
+    {
+        "name": "Semantic Versioning 2.0.0",
+        "url": "https://semver.org/",
+        "techUsed": "n/a"
+    },
+    {
+        
+    }
+]

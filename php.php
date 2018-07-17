@@ -21,21 +21,17 @@
 						<div class="inner">
 
 							<!-- Header -->
-								<header id="header">
+								<header id="header ">
 					
-				<?php include(__DIR__.'includes/navbar.php'); ?>
+									<?php include(__DIR__.'includes/navbar.php'); ?>
+
 								</header>
 
 							<!-- Content -->
 								<section>
 									<header class="main">
 										<h1>PHP</h1>
-
-
-
 									</header>
-
-									
 													<div id="app" class="table-wrapper">
 														<table>
 															<thead>
@@ -57,21 +53,15 @@
 															</tbody>
 														</table>
 													</div>
-
 								</section>
-
 						</div>
 					</div>
-
-				
-
 			</div>
 
 		<!-- Scripts -->
-		<?php include(__DIR__.'/includes/scripts.php'); ?>
+			<?php include(__DIR__.'/includes/scripts.php'); ?>
 			<script>
-			
-
+		
 				var app = new Vue({
 					el: '#app',
 					data: {
@@ -79,20 +69,12 @@
 					}
 				});
 
-				$(document).ready(function(){
-
-
-
 			$.getJSON('data/php-repositories.json', function(data){
+
 					app.items = data;
-				});
-
-
 
 				});
 
-			
-			
 			</script>
 
 	</body>

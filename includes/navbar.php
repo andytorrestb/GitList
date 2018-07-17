@@ -1,7 +1,7 @@
                 <!-- logo -->
-    <span class="logo">
-		<a href="index.php">Lit Gits</a>
-	</span>
+                 <span class="logo">
+		            <a href="index.php">Lit Gits</a>
+	             </span>
                 <!-- nav-->
                 <nav id="nav">
                     <ul>

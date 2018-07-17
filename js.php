@@ -10,7 +10,6 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
-		<link rel="stylesheet" href="assets/css/bootstrap.min.css">
 		<link rel="stylesheet" href="node_modules/balloon-css/balloon.css">
 	</head>
 	<body class="is-preload">
@@ -25,7 +24,8 @@
 							<!-- Header -->
 								<header id="header">
 
-					<?php include(__DIR__.'/includes/navbar.php'); ?>
+									<?php include(__DIR__.'/includes/navbar.php'); ?>
+
 								</header>
 
 							<!-- Content -->
@@ -71,18 +71,17 @@
 			</div>
 
 		<!-- Scripts -->
-			<?php include(__DIR__.'/includes/'); ?>
+			<?php include(__DIR__.'/includes/scripts.php'); ?>
 			<script>
 			
 
 
 
-    $.getJSON('data/javascript-repositories.json', function(data) {
+   				 $.getJSON('data/javascript-repositories.json', function(data) {
+
                     app.items = data;
-                });
-
-
-
+                
+				});
 
                 var app = new Vue({
                     el: '#app',
@@ -90,26 +89,7 @@
                         items: []
                     }
 				});
-
-
-				
-
-				$(document).on("click", ".alert", function(e) {
-					bootbox.alert("Hello world", function() {
-						console.log("Alert Callback");
-					});
-				});
-
-			
-
-
-
-
-
-
-
-
-
+		
 			</script>
 
 	</body>

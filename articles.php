@@ -23,48 +23,40 @@
 							<!-- Header -->
 								<header id="header">
 
-								
-				<?php include(__DIR__.'/includes/navbar.php'); ?>
+									<?php include(__DIR__.'/includes/navbar.php'); ?>
+
 								</header>
 
 							<!-- Content -->
 								<section>
 									<header class="main">
+
 										<h1>Articles</h1>
 
-
-
 									</header>
-
-													<div id="app" class="table-wrapper">
-														<table>
-															<thead>
-																<tr>
-																	<th>Source</th>
-																	<th>Description</th>
-																	<th>Date</th>
-																	<th>Tech Used</th>
-																	
-																</tr>
-															</thead>
-															<tbody>
-																<tr v-for="(item,index) in items">
-																	<td><a :href="item.url">#{{index+1}}. {{item.source}}</a></td>
-																	<td>{{item.description}}</td>
-																	<td>{{item.date}}</td>
-																	<td>{{item.techUsed}}</td>
-																</tr>																
-															</tbody>
-														</table>
-													</div>
-
+									<div id="app" class="table-wrapper">
+										<table>
+											<thead>
+												<tr>
+													<th>Source</th>
+													<th>Description</th>
+													<th>Date</th>
+													<th>Tech Used</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr v-for="(item,index) in items">
+													<td><a :href="item.url">#{{index+1}}. {{item.source}}</a></td>
+													<td>{{item.description}}</td>
+													<td>{{item.date}}</td>
+													<td>{{item.techUsed}}</td>
+												</tr>																
+											</tbody>
+										</table>
+									</div>					
 								</section>
-
 						</div>
 					</div>
-
-			
-
 			</div>
 
 		<!-- Scripts -->

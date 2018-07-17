@@ -65,16 +65,12 @@
 
 						</div>
 					</div>
-
-				<!-- Sidebar -->
-					
 			</div>
 
 		<!-- Scripts -->
 		<?php include(__DIR__.'/includes/scripts.php'); ?>
 		<script>
-
-				
+			
 			$.getJSON('data/css-repositories.json', function(data) {
 					app.items = data;
 			});
@@ -86,12 +82,7 @@
 					}
 				});
 
-			
-
-
-
-
-			</script>
+		</script>
 
 	</body>
 </html>

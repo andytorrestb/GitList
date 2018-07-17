@@ -23,16 +23,14 @@
 							<!-- Header -->
 								<header id="header">
 
-				<?php include(__DIR__.'/includes/navbar.php'); ?>
+									<?php include(__DIR__.'/includes/navbar.php'); ?>
+
 								</header>
 
 							<!-- Content -->
 								<section>
 									<header class="main">
 										<h1>Articles</h1>
-
-
-
 									</header>
 
 													<div id="app" class="table-wrapper">

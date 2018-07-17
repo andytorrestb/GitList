@@ -23,9 +23,8 @@
 
 							<!-- Header -->
 								<header id="header">
-									
-<?php include(__DIR__.'/includes/navbar.php'); ?>
-	
+
+									<?php include(__DIR__.'/includes/navbar.php'); ?>
 	
 								</header>
 
@@ -70,8 +69,6 @@
 
 		<!-- Scripts -->
 		<?php includes('includes/scripts.php'); ?>
-	<script>
-		var myarr = [ 1, 2, 3];
-	</script>
+		
 	</body>
 </html>

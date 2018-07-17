@@ -14,40 +14,38 @@
                 <!-- Main -->
                     <div id="main">
                         <div class="inner">
-
-                    <?php include(__DIR__.'/includes/navbar.php'); ?>
+                                <header id="header">
+                                  <?php include(__DIR__.'/includes/navbar.php'); ?>
                                 </header>
-
                             <!-- Content-->
                                 <section>
                                     <header class="main">
                                         <h1>Stats</h1>
-
                                     </header>
                                     <div class="row">
-                                        <div class="col-6 col-12-medium">
-                                            <h4 class="data-header">Writing Code</h4>
-                                            <div class="table-wrapper">
-                                                <table>
-                                                    <thead>
-                                                        <tr>
-                                                            <th># of hours</th>
-                                                            <th>Description</th>
-                                                            <th>Week of</th>
-                                                        </tr>
-                                                    </thead>
-                                                    <tbody>
-                                                        <tr>
-                                                            <td>#</td>
-                                                            <td>placeholder</td>
-                                                            <td>7/16/2018</td>
-                                                        </tr>
-                                                    </tbody>
-                                                </table>
+                                    <div class="col-6 col-12-medium">
+                                                <h4 class="data-header">Looking for Lit Gits</h4>
+                                                <div class="table-wrapper">
+                                                    <table>
+                                                        <thead>
+                                                            <tr>
+                                                                <th># of hours</th>
+                                                                <th>Description</th>
+                                                                <th>Week of</th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                            <tr>
+                                                                <td>#</td>
+                                                                <td>placeholder</td>
+                                                                <td>7/16/2018</td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </div>
                                             </div>
-                                        </div>
-                                        <div class="col-6 col-12-medium">
-                                            <h4 class="data-header">Browsing Code</h4>
+                                            <div class="col-6 col-12-medium">
+                                                <h4 class="data-header">Looking for Lit Gits</h4>
                                                 <div class="table-wrapper">
                                                     <table>
                                                         <thead>
@@ -117,6 +115,7 @@
                         </div>
                     </div>
             </div>
-<?php include(__DIR__.'/includes/scripts.php'); ?>
+        <?php include(__DIR__.'/includes/scripts.php'); ?>
     </body>
 </html>
+                                
