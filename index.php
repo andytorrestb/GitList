@@ -1,119 +1,56 @@
-<!DOCTYPE HTML>
-<html>
-	<head>
-		<title>Lit Gits</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<link rel="stylesheet" href="node_modules/balloon-css/balloon.css">
-	</head>
+<?php 
 
-	<body class="is-preload">
+        $filename = __DIR__."/views/home.php";
+	$php = require $filename;
+        //$php = file_get_contents($filename);
 
-		<!-- Wrapper -->
-			<div id="wrapper">
+	echo $php;
 
-				<!-- Main -->
-					<div id="main">
-						<div class="inner">
 
-							<!-- Header -->
-							<header id="header">
-			
-								<?php include(__DIR__.'/includes/navbar.php'); ?>
 
-							</header>			
+/*
+		$id = '';
+		if (isset($_GET['id'])) {
+			$id = trim($_GET['id']);
+			$id = preg_replace('/[^a-zA-Z0-9\-]+/', $id);
+		}
+		if (in_array($id, ['css', 'php', 'js', 'docs', 'jargon', 'articles', 'stats'])) {
+			$filename = __DIR__."/$id.php";
+			$php = file_put_contents($filename);
 
-							<!-- Banner -->
-								<section id="banner">
-									<div class="content">
-										<header>
-											<h1>Lit Gits</h1>
-											<p>a website packed with useful and interesting Github repositories</p>
-										</header>
+			http_response_code(200);
+			header('Content-Type: application/php');
+			header('Content-Length: '.strlen($php));
+			echo $php;
+		} else {
+			http_response_code(404);
+		}
+		*/
+/*
+require('Toro.php');
 
-										<!-- to-do: re word -->
-										<p>A repository is a central location where data is stored and managed. Github is ran using the most popular repository management software, git, and is an excellent place to research what developers are working on </p>
-										<ul class="actions">
-											<li><button data-balloon="Follow this link to find your own gits!   " data-balloon-pos="right"><a href="https://github.com/explore">Learn more!</a></button></li>
-										</ul>
-									</div>
-									<span class="image object">
-										<img src="images/Octoferno.jpg" alt="" />
-									</span>
-								</section>
+class HelloHandler {
+    function get() {
+        $filename = __DIR__."/views/home.php";
+        $php = file_get_contents($filename);
 
-						
+        //http_response_code(200);
+        //header('Content-Type: application/php');
+        //header('Content-Length: '.strlen($php));
+        echo $php;
+    }
+}
 
-							<!-- Section -->
-								<section>
-									<header class="major">
-										<h2>Languages</h2>
-									</header>
-									<div class="posts">
-										<article>
-											<a href="css.php" class="image"><img src="images/css3.jpg" alt="" /></a>
-											<h3>Cascading Style Sheets</h3>
-											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-											<ul class="actions">
-												<li><a href="css.php" class="button">More</a></li>
-											</ul>
-										</article>
-										<article>
-											<a href="js.php" class="image"><img src="images/js.jpg" alt="" /></a>
-											<h3>Javascript</h3>
-											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-											<ul class="actions">
-												<li><a href="js.php" class="button">More</a></li>
-											</ul>
-										</article>
-										<article>
-											<a href="php.php" class="image"><img src="images/php.jpg" alt="" /></a>
-											<h3>PHP Hypetext Protocol</h3>
-											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-											<ul class="actions">
-												<li><a href="php.php" class="button">More</a></li>
-											</ul>
-										</article>
-										<!--
-										<article>
-											<a href="#" class="image"><img src="images/pic04.jpg" alt="" /></a>
-											<h3>Sed etiam facilis</h3>
-											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-											<ul class="actions">
-												<li><a href="#" class="button">More</a></li>
-											</ul>
-										</article>
-										<article>
-											<a href="#" class="image"><img src="images/pic05.jpg" alt="" /></a>
-											<h3>Feugiat lorem aenean</h3>
-											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-											<ul class="actions">
-												<li><a href="#" class="button">More</a></li>
-											</ul>
-										</article>
-										<article>
-											<a href="#" class="image"><img src="images/pic06.jpg" alt="" /></a>
-											<h3>Amet varius aliquam</h3>
-											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-											<ul class="actions">
-												<li><a href="#" class="button">More</a></li>
-											</ul>
-										</article>
 
-									-->
-									</div>
-								</section>
+//$h = new HelloHandler;
+//$h->get();
 
-						</div>
-					</div>
 
-				
+Toro::serve(array(
+    "/" => "HelloHandler",
+    "/js" => function() {
+        echo "hello!";
+    }
+));
 
-			</div>
-
-		<!-- Scripts -->
-		<?php include(__DIR__.'/includes/scripts.php'); ?>
-
-	</body>
-</html>
+*/

@@ -11,6 +11,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<link rel="stylesheet" href="node_modules/balloon-css/balloon.css">
+		<link rel="stylesheet" href="node_modules/"
 	</head>
 	<body class="is-preload">
 
@@ -48,7 +49,7 @@
                                             <tbody>
                                                 <tr v-for="(item,index) in items">
                                                     <td><a :href="item.url">#{{index+1}}. {{item.name}}</a></td>
-                                                    <td>{{item.description}}</td>
+                                                    <td><a href="#modal">{{item.description}}</a></td>
                                                     <td>{{item.date}}</td>
                                                     <td><a href="#" class="icon fa-github alert"><span class="label">Twitter</span></a></td>
                                                 </tr>
@@ -61,6 +62,15 @@
                                         </table>
                                     </div>
 
+								</section>
+
+								<section class="modal--show" id="modal-text" tabindex="-1" role="dialog" aria-labelledby="modal=label" aria-hidden="ture">
+									<div class="modal-inner">
+										<header id="modal-label"></header>
+										<div class="modal-content"></div>
+									</div>
+
+									<a href="#!" class="modal-close" title="Close this modal" data-close="Close" data-dismiss="modal">?</a>
 								</section>
 
 						</div>
