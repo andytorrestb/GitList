@@ -6,6 +6,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="/GitList/assets/css/main.css" />
 		<link rel="stylesheet" href="/GitList/node_modules/balloon-css/balloon.css">
+		<link rel="icon" href="https://png.icons8.com/ios/50/000000/matches.png">
 		
 	</head>
 
@@ -108,7 +109,7 @@
 
 						</div>
 					</div>
-					<img src="https://png.icons8.com/ios/50/000000/matches.png">
+					
 				
 
 			</div>

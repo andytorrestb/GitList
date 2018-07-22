@@ -1,4 +1,4 @@
-<script src="assets/js/vue.js"></script>
+<script src="../../assets/js/vue.js"></script>
 <script src="assets/js/jquery.min.js"></script>
 <script src="assets/js/jquery.dropotron.min.js"></script>
 <script src="assets/js/browser.min.js"></script>

@@ -1,12 +1,13 @@
 <?php 
-
-        $filename = __DIR__."/views/home.php";
-	$php = require $filename;
-        //$php = file_get_contents($filename);
-
-	echo $php;
-
-
+    include_once(__DIR__.'/includes/config.php');
+    //$_SERVER['PHP_SELF'] = str_replace('/GitList/',"/GitList/templates/$activeTemplate/"); 
+    
+      
+      
+    $filename = __DIR__."/templates/$activeTemplate/index.php";
+    //chdir(dirname($filename));
+    	
+	require_once($filename);
 
 /*
 		$id = '';
