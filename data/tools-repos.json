@@ -1,0 +1,144 @@
+[
+    {
+        "name": "Hamburgers",
+        "url": "https://github.com/jonsuh/hamburgers",
+        "description": "a collection of CSS-animated hamburger icons.",
+        "date": "7/10/2018",
+        "tags": "CSS"
+    },
+    {
+        "name": "Animate.css",
+        "url": "https://github.com/daneden/animate.css",
+        "description": "a bunch of cool, fun and cross-browser animations to use in your projects.",
+        "date": "7/10/2018",
+        "tags": "CSS"
+    },
+    {						
+        "name": "Hover.css",
+        "url": "https://github.com/IanLunn/Hover",
+        "description": "A collection of CSS3 powered hover effects to be applied to links, buttons, logos, SVG, featured images and so on.",
+        "date": "7/10/2018",
+        "tags": "CSS"
+    },
+    {
+        "name": "Colors.css",
+        "url": "https://github.com/mrmrs/colors",
+        "description": "Better default colors for the web. A collection of skin classes for faster prototyping and nicer looking sites.",
+        "date": "7/12/2018",
+        "tags": "CSS"
+    },
+    {
+        "name": "Subtle Patterns",
+        "url": "https://github.com/atlemo/SubtlePatterns",
+        "description": "background images, for adding texture to websites",
+        "date": "7/12/2018",
+        "tags": "CSS"
+    },
+    {
+        "name": "Docz",
+        "url": "https://github.com/pedronauck/docz",
+        "description": "a package that makes it easy for developers to document progress",
+        "date": "7/10/2018",
+        "tags": "JS"
+    },
+    {
+        "name": "Material Dashboard",
+        "url": "https://github.com/creativetimofficial/material-dashboard",
+        "description": "administration dashboard powered by bootstrap with a design inspired by Google’s famous material design.",
+        "date": "7/10/2018",
+        "tags": "JS"
+    },
+    {
+        "name": "JSUI",
+        "url": "https://github.com/kitze/JSUI",
+        "description": "A tool for visually organizing, creating, and managing JS projects",
+        "date": "7/10/2018",
+        "tags": "JS"
+    },
+    {
+        "name": "MarkText",
+        "url": "https://github.com/marktext/marktext",
+        "description": " editor that allows the user to preview text styles updates",
+        "date": "7/10/2018",
+        "tags": "JS"
+    },
+    {
+        "name": "Composer",
+        "url": "https://github.com/composer/composer",
+        "description": "Dependency management for PHP. Helps declare, manage, and install dependencies for PHP projects",
+        "date": "7/10/2018",
+        "tags": "PHP"
+    }, 
+    {
+        "name": "Cachet",
+        "url": "https://github.com/CachetHQ/Cachet",
+        "description": "open source status page system used to update teams on the status of websites (?)",
+        "date": "7/10/2018",
+        "tags": "PHP"
+    },
+    {
+        "name": "cheat.sh",
+        "url": "https://github.com/chubin/cheat.sh",
+        "description": "the only cheat sheet you need",
+        "date": "7/23/2018",
+        "tags": "Python"
+    },
+    {
+        "name": "Hacker Job Trends",
+        "url": "https://github.com/timqian/hacker-job-trends",
+        "description": " Get historical \"Who is hiring\" posts on HackerNews and analyse the keyword count history",
+        "date": "7/23/2018",
+        "tags": "Interview Prep"
+    },
+    {
+        "name": "Winds",
+        "url": "https://github.com/GetStream/Winds",
+        "description": "A beautiful open-source RSS and Podcast app created using React/Redux/Node",
+        "date": "7/23/2018",
+        "tags": "Podcast"
+    },
+    {
+        "name": "Publii",
+        "url": "https://github.com/GetPublii/Publii",
+        "description": "A desktop-based CMS for Windows and Mac that makes creating static websites fast and hassle-free, even for beginners.",
+        "date": "7/23/2018",
+        "tags": "CMS"
+    },
+    {
+        "name": "NBA Gamethread",
+        "url": "https://github.com/alex/nba-gamethread",
+        "description": "A game thread generator for r/nba",
+        "date":"7/23/2018",
+        "tags": "Extras"
+    },
+    {
+        "name": "Spacial Defensive Statistics",
+        "url": "https://github.com/kingfisher13/Spatial-Defensive-Statistics",
+        "description": "An exploration of spacial statistics related to NBA defense",
+        "date": "7/23/2018",
+        "tags": "Extras"
+    },
+    {
+        "name": "PayPerCall",
+        "url": "https://github.com/ElementsProject/paypercall",
+        "description": "Charge for HTTP APIs on a pay-per-call basis woth Botcoing and Lightning",
+        "date":"7/23/2018",
+        "tags": "Crypto"
+    },
+    {
+        "name": "OpenTok SDK",
+        "url": "https://github.com/opentok/Opentok-.NET-SDK",
+        "description": "The OpenTok .NET SDK lets you generate sessions and tokens for OpenTok applications that run on the .NET platform. The SDK also includes support for working with OpenTok archives.",
+        "date":"7/23/2018",
+        "tags":"WebRTC"
+    },
+    {
+        "name": "Random Color",
+        "url": "https://github.com/davidmerfield/randomColor",
+        "description": "A tiny script for generating attractive random colors.",
+        "date":"7/23/2018"
+    },
+    {
+        
+    }
+]

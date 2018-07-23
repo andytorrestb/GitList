@@ -1,0 +1,61 @@
+[
+    {
+        "name": "CSS Pro-tips",
+        "url": "https://github.com/AllThingsSmitty/css-protips",
+        "description": "A collection of tips to help take your CSS skills pro.",
+        "date": "7/10/2018",
+        "tags": "CSS"
+    },
+    {
+        "name": "System Design Primer",
+        "url": "https://github.com/donnemartin/system-design-primer",
+        "description": "Learn how to design large-scale systems. Prep for the system design interview. Includes Anki flashcards.",
+        "date": "7/23/2018",
+        "tags": "Interview Prep"
+    },
+    {
+        "name": "Technically-oriented PDF Collection (Papers, Specs, Decks, Manuals, etc)",
+        "url": "https://github.com/tpn/pdfs",
+        "description": "A veritable mish-mash of technically-oriented PDFs I've collected over the years. All content copyright the respective author(s).",
+        "date": "7/23/2018",
+        "tags": "eBooks"
+    },
+    {
+        "name": "Ebook Foundation",
+        "url": "https://github.com/EbookFoundation/free-programming-books",
+        "description": "Freely available programming books available in many different languages.",
+        "date": "7/23/2018",
+        "tags": "eBooks"
+    },
+    {
+        "name": "Airbbnb JavaScript Style Guide",
+        "url": "https://github.com/airbnb/javascript",
+        "description": "A mostly reasonable approach to JavaScript",
+        "date": "7/23/2018",
+        "tags": "JS"
+    },
+    {
+        "name": "Deep Learning AI",
+        "url": "https://github.com/fengdu78/deeplearning_ai_books",
+        "description": "Wu Enda's note and resources for a deep learning course",
+        "date": "7/23/2018",
+        "tags": "eBooks"
+    },
+    {
+        "name": "What happens when ?",
+        "url": "https://github.com/alex/what-happens-when",
+        "description": "An attempt to answer the age old interview question \"What happens when you type google.com into your browser and press enter?\"",
+        "date": "7/23/2018",
+        "tags": "HTTP"
+    },
+    {
+        "name": "Semantic Versionaing Specification 2.0",
+        "url": "https://github.com/semver/semver",
+        "description": "The industry standard of verbage for describing updates to software releases",
+        "date": "7/23/2018",
+        "tags": "Rules"
+    },
+    {
+        "name": ""
+    }
+]

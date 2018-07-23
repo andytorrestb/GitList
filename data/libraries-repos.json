@@ -1,0 +1,66 @@
+[
+    {
+        "name": "PHP Mailer",
+        "url": "https://github.com/PHPMailer/PHPMailer",
+        "description": "full featured email creation and transfer class for PHP",
+        "date": "7/10/2018",
+        "tags": "PHP"
+    },
+    {
+        "name": "PHP GUI",
+        "url": "https://github.com/gabrielrcouto/php-gui",
+        "description": "allows developers to easily create GUI’s using PHP",
+        "date": "7/10/2018",
+        "tags": "PHP"
+    },
+    {
+        "name": "Swift Mailer",
+        "url": "https://github.com/swiftmailer/swiftmailer",
+        "description": "A component based mailing solution for PHP 7. It is highly object oriented by design and meant for use in complex web applications with a great deal of flexibility.",
+        "date": "7/10/2018",
+        "tags": "PHP"
+    },
+    {
+        "name": "Faker",
+        "url": "https://github.com/fzaninotto/Faker",
+        "description": "a PHP library that generates fake data for you.",
+        "date": "7/10/2018",
+        "tags": "PHP"
+    }, 
+    {
+        "name": "balloon.css",
+        "url": "https://github.com/kazzkiq/balloon.css",
+        "description": "Lets you add tooltips to elements without JS",
+        "date": "7/10/2018",
+        "tags": "CSS"
+    },
+    {
+        "name": "Carbon",
+        "url": "https://github.com/briannesbitt/Carbon",
+        "description": "A simple API extension for DateTime.",
+        "date": "7/10/2018",
+        "tags": "PHP"
+    }, 
+    {
+        "name": "EmailValidator",
+        "url": "https://github.com/egulias/EmailValidator",
+        "description": "a PHP email validator",
+        "date": "7/10/2018",
+        "tags": "PHP"
+    },
+    {
+        "name": "Driver.js",
+        "url": "https://github.com/kamranahmedse/driver.js",
+        "description": "A light-weight, no-dependency, vanilla JavaScript engine to drive the user's focus across the page",
+        "date": "7/23/2018",
+        "tags": "JS"
+    },
+    {
+        "name": "CSS Modal",
+        "url": "https://github.com/drublic/css-modal",
+        "description": "A modal built with pure CSS, enhanced with JavaScript",
+        "date": "7/23/2018",
+        "tags": "CSS"
+    }
+
+]
