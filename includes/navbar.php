@@ -9,7 +9,7 @@
                         <li>
                             <a href="#" class="icon fa-angle-down">Gits</a>
                             <ul>
-                                <li><a href="css.php">Tools</a></li>
+                                <li><a href="template.php">Tools</a></li>
                                 <li><a href="">Libraries</a></li>
                                 <li><a href="js.php">Frameworks</a></li>
                                 <li><a href="php.php">Info</a></li>

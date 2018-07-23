@@ -7,7 +7,7 @@
 <html>
 	<head>
         <title>Untitled</title>
-        <?php include(__DIR__.'/config.php'); ?>
+    
 		<?php include(BASE_PATH.'/includes/head.php'); ?>
 	</head>
 	<body class="is-preload">

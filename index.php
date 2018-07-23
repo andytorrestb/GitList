@@ -9,6 +9,13 @@
     	
 	require_once($filename);
 
+      
+    $template = __DIR__."/templates/$activeTemplate/template.php";
+    //chdir(dirname($filename));
+    	
+	require_once($template);  
+    
+
 /*
 		$id = '';
 		if (isset($_GET['id'])) {
