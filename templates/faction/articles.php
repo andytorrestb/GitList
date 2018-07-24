@@ -9,6 +9,7 @@
         <title>Untitled</title>
     
 		<?php include(BASE_PATH.'/includes/head.php'); ?>
+		
 	</head>
 	<body class="is-preload">
 

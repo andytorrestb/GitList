@@ -1,64 +1,13 @@
-<?php 
-    include_once(__DIR__.'/includes/config.php');
-    //$_SERVER['PHP_SELF'] = str_replace('/GitList/',"/GitList/templates/$activeTemplate/"); 
-    
+<?php
+    include_once(__DIR__.'/includes/config.php');    
       
-      
-    $filename = __DIR__."/templates/$activeTemplate/index.php";
-    //chdir(dirname($filename));
-    	
-	require_once($filename);
-
-      
-    $template = __DIR__."/templates/$activeTemplate/template.php";
-    //chdir(dirname($filename));
-    	
-	require_once($template);  
-    
-
-/*
-		$id = '';
-		if (isset($_GET['id'])) {
-			$id = trim($_GET['id']);
-			$id = preg_replace('/[^a-zA-Z0-9\-]+/', $id);
-		}
-		if (in_array($id, ['css', 'php', 'js', 'docs', 'jargon', 'articles', 'stats'])) {
-			$filename = __DIR__."/$id.php";
-			$php = file_put_contents($filename);
-
-			http_response_code(200);
-			header('Content-Type: application/php');
-			header('Content-Length: '.strlen($php));
-			echo $php;
-		} else {
-			http_response_code(404);
-		}
-		*/
-/*
-require('Toro.php');
-
-class HelloHandler {
-    function get() {
-        $filename = __DIR__."/views/home.php";
-        $php = file_get_contents($filename);
-
-        //http_response_code(200);
-        //header('Content-Type: application/php');
-        //header('Content-Length: '.strlen($php));
-        echo $php;
+    if (preg_match(':(.+)/(GitList)/(.+$):', __FILE__, $m)===1) {
+        $parentPath = $m[1];
+        $relativeFilename = $m[3];
+    } else {
+        $parentPath = __DIR__;
+        $relativeFilename = basename(__FILE__);
     }
-}
-
-
-//$h = new HelloHandler;
-//$h->get();
-
-
-Toro::serve(array(
-    "/" => "HelloHandler",
-    "/js" => function() {
-        echo "hello!";
-    }
-));
-
-*/
+      
+    $filename = rtrim($parentPath,'/').rtrim($templatePath,'/').'/'.$relativeFilename;
+    include_once($filename);
