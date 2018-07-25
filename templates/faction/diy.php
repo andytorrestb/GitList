@@ -125,12 +125,13 @@
 
 				$.getJSON('../../data/framework-repos.json', function(data) {
 					app.items = data;
-				});
+					console.table(data);
 
+				});
 
 				// throws error: data not defined
 				// my guess: something wrong with the path?
-				console.table(data);
+				
 				
 
 				var app = new Vue({
