@@ -61,8 +61,5 @@
         "description": "a component that controls user interactions and state for you so you can create autocomplete/dropdown/select/etc. components.",
         "date":"7/23/2018",
         "tags": "JS"
-    },
-    {
-        
     }
 ]

@@ -113,40 +113,18 @@
             <?php include(BASE_PATH.'/includes/scripts.php'); ?>
 			<script>
 
-				// comparing similarities in strings (experiment)
-				str1 = "treasurechest";
-				str2 = "treasurechesttamaebako";
-
-				percentage = (str1.length/str2.length)*100;
-
-				console.log(percentage);
-
-
-
-				$.getJSON('../../data/framework-repos.json', function(data) {
-					app.items = data;
-					console.table(data);
-
-				});
-
-				// throws error: data not defined
-				// my guess: something wrong with the path?
-				
-				
-
 				var app = new Vue({
 					el: '#app',
 					data: {
 						items: []
+					},					
+					mounted: function() {
+					    console.log('mounted');
+					    $.getJSON('/GitList/data/diy-repos.json', function(data) {
+					        app.items = data;
+					    });
 					}
 				});
-
-				
-			
-				
-
-
-				
 
 				
 
