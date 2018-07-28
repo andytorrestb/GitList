@@ -1,5 +1,6 @@
 {
     "require": {
-        "nesbot/carbon": "^1.32"
+        "nesbot/carbon": "^1.32",
+        "slim/slim": "^3.0"
     }
 }

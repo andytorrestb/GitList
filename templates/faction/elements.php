@@ -6,48 +6,16 @@
 -->
 <html>
 	<head>
-		<title>Untitled</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
+
+		<?php include('includes/head.php'); ?>
+
 	</head>
 	<body class="is-preload">
 
 		<!-- Header -->
 			<header id="header">
 
-				<!-- Logo -->
-					<span class="logo">
-						<a href="index.html">Faction</a>
-						<span>By Pixelarity</span>
-					</span>
-
-				<!-- Nav -->
-					<nav id="nav">
-						<ul>
-							<li><a href="index.html">Home</a></li>
-							<li>
-								<a href="#" class="icon fa-angle-down">Dropdown</a>
-								<ul>
-									<li><a href="#">Option One</a></li>
-									<li><a href="#">Option Two</a></li>
-									<li><a href="#">Option Three</a></li>
-									<li>
-										<a href="#">Submenu</a>
-										<ul>
-											<li><a href="#">Option One</a></li>
-											<li><a href="#">Option Two</a></li>
-											<li><a href="#">Option Three</a></li>
-											<li><a href="#">Option Four</a></li>
-										</ul>
-									</li>
-								</ul>
-							</li>
-							<li><a href="generic.html">Generic</a></li>
-							<li><a href="elements.html">Elements</a></li>
-							<li><a href="#" class="button">Log In</a></li>
-						</ul>
-					</nav>
+				<?php include('includes/navbar.php'); ?>
 
 			</header>
 
@@ -483,65 +451,8 @@ print 'It took ' + i + ' iterations to sort the deck.';
 					</section>
 
 			</div>
-
-		<!-- Footer -->
-			<footer id="footer">
-				<div class="inner">
-					<section class="info">
-						<h3>About Us</h3>
-						<div class="about">
-							<p>Morbi mattis mi consectetur tortor elementum, varius pellentesque velit convallis. Aenean tincidunt lectus auctor mauris maximus, ac scelerisque ipsum tempor. Duis vulputate ex et ex tincidunt, quis lacinia velit aliquet. Duis non efficitur malesuada.</p><p>Sagittis felis ac sagittis semper. Curabitur purus leo donec vel dolor at arcu tincidunt bibendum. Interdum et malesuada fames ac ante ipsum primis.</p>
-							<ul class="actions">
-								<li><a href="#" class="button">Learn More</a></li>
-							</ul>
-						</div>
-						<div class="team">
-							<article>
-								<span class="image"><img src="images/pic06.jpg" alt=""></span>
-								<p>
-									<strong class="name">John Doe</strong>
-									<span class="title">Lorem semper magna etiam</span>
-								</p>
-							</article>
-							<article>
-								<span class="image"><img src="images/pic07.jpg" alt=""></span>
-								<p>
-									<strong class="name">Jane Anderson</strong>
-									<span class="title">Etiam feugiat adipiscing veroeros</span>
-								</p>
-							</article>
-							<article>
-								<span class="image"><img src="images/pic08.jpg" alt=""></span>
-								<p>
-									<strong class="name">Mike Smith</strong>
-									<span class="title">Consequat nulla dolor blandit</span>
-								</p>
-							</article>
-						</div>
-					</section>
-					<section class="contact">
-						<h3>Contact Us</h3>
-						<ul class="contact-icons">
-							<li class="icon fa-home"><a href="#">1234 Somewhere Road #80486<br>Nashville, TN 00000</a></li>
-							<li class="icon fa-phone"><a href="#">(800) 555-0000 x12345</a></li>
-							<li class="icon fa-envelope"><a href="#">hello@untitled.tld</a></li>
-							<li class="icon fa-facebook"><a href="#">facebook.com/untitled-tld</a></li>
-							<li class="icon fa-twitter"><a href="#">twitter.com/untitled-tld</a></li>
-						</ul>
-					</section>
-				</div>
-				<div class="copyright">
-					&copy; Untitled. All rights reserved.
-				</div>
-			</footer>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.dropotron.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+	<!-- Footer & Repeating Scripts -->
+		<?php include('includes/footer.php'); ?>
 
 	</body>
 </html>
