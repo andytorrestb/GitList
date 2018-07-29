@@ -12,4 +12,10 @@ $app->get('/', function (Request $request, Response $response, array $args) {
     return $response;
 });
 
+$app->get('/tools', function (Request $request, Response $response, array $args){
+    $content = require_once __DIR__.'/tools.php';
+    $response->getBody()->write($content);
+    return $response;
+});
+
 $app->run();
