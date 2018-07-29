@@ -58,6 +58,8 @@
 						</section>
 					</section>
 
+			</div>
+
 		<!-- Footer & Repeating Scripts -->
 		<?php include('includes/footer.php'); ?>
 			<script>
