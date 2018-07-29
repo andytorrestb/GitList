@@ -69,7 +69,7 @@
 					},					
 					mounted: function() {
 					    console.log('mounted');
-					    $.getJSON('/GitList/data/frameworks-repos.json', function(data) {
+					    $.getJSON('/GitList/data/gits/frameworks.json', function(data) {
 					        app.items = data;
 					    });
 					}

@@ -1,13 +1,15 @@
-<?php
-    include_once(__DIR__.'/includes/config.php');    
-      
-    if (preg_match(':(.+)/(GitList)/(.+$):', __FILE__, $m)===1) {
-        $parentPath = $m[1];
-        $relativeFilename = $m[3];
-    } else {
-        $parentPath = __DIR__;
-        $relativeFilename = basename(__FILE__);
-    }
-      
-    $filename = rtrim($parentPath,'/').rtrim($templatePath,'/').'/'.$relativeFilename;
-    include_once($filename);
+<?php 
+
+use \Psr\Http\Message\ServerRequestInterface as Request;
+use \Psr\Http\Message\ResponseInterface as Response;
+
+require '../vendor/autoload.php';
+
+$app = new \SLim\App;
+$app->get('/', function (Request $request, Response $response, array $args) {
+	$content = require_once __DIR__.'/home.php';
+    $response->getBody()->write($content);
+    return $response;
+});
+
+$app->run();

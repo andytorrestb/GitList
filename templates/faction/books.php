@@ -70,7 +70,7 @@
 					},					
 					mounted: function() {
 					    console.log('mounted');
-					    $.getJSON('/GitList/data/diy-repos.json', function(data) {
+					    $.getJSON('/GitList/data/text/books.json', function(data) {
 					        app.items = data;
 					    });
 					}

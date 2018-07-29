@@ -70,7 +70,7 @@
 				},
 				mounted: function() {
 					console.log('mounted');
-					$.getJSON('/GitList/data/jargon.json', function(data){
+					$.getJSON('/GitList/data/text/jargon.json', function(data){
 						app.items = data;
 					});
 				}

@@ -70,7 +70,7 @@
 					},					
 					mounted: function() {
 					    console.log('mounted');
-					    $.getJSON('/GitList/data/tools-repos.json', function(data) {
+					    $.getJSON('/GitList/data/gits/tools.json', function(data) {
 					        app.items = data;
 					    });
 					}

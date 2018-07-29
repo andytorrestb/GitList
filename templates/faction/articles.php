@@ -70,7 +70,7 @@
 					},					
 					mounted: function() {
 					    console.log('mounted');
-					    $.getJSON('/GitList/data/articles.json', function(data) {
+					    $.getJSON('/GitList/data/text/articles.json', function(data) {
 					        app.items = data;
 					    });
 					}

@@ -69,7 +69,7 @@
 					},					
 					mounted: function() {
 					    console.log('mounted');
-					    $.getJSON('/GitList/data/info-repos.json', function(data) {
+					    $.getJSON('/GitList/data/gits/info.json', function(data) {
 					        app.items = data;
 					    });
 					}
