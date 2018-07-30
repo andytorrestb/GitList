@@ -70,6 +70,20 @@
         "tags": "Icons"
     },
     {
-        
+       "name": "Epoc.js",
+       "url": "Node.js addon for the Emotiv C++ SDK",
+       "description": "A framework that provides an interface to access data from the EOTIV EPOC brain sensor using Node.js",
+       "date": "7/29/2018",
+       "tags": "BCI"
+    },
+    {
+        "name": "UI",
+        "url": "https://github.com/krakjoe/ui",
+        "description": "Cross platform UI development in PHP",
+        "date": "7/29/2018",
+        "tags":"PHP"
+    },
+    {
+        "name": ""
     }
 ]

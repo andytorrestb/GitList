@@ -77,6 +77,31 @@
         "tags":"Interview Prep"
     },
     {
-        "name": ""
+        "name": "Awesome BCI",
+        "url": "https://github.com/NeuroTechX/awesome-bci",
+        "description": "Curated Collection of BCI resources",
+        "date": "7/29/2018",
+        "tags": "BCI"
+    },
+    {
+        "name": "BCI Workshop",
+        "url": "https://github.com/NeuroTechX/bci-workshop",
+        "description": "Material for BCI workshop held MAy 2015 by BCI Montreal",
+        "date": "7/29/2018",
+        "tags": "BCI"
+    },
+    {
+        "name": "Cortex API Example",
+        "url": "https://github.com/Emotiv/cortex-example",
+        "description": "Examples on how to work with Emotiv cortex API",
+        "date": "7/29/2018",
+        "tags":"BCI"
+    },
+    {
+        "name": "Awesome PHP",
+        "url": "https://github.com/ziadoz/awesome-php",
+        "description": "curated list of awesome PHP libraries, resources, and shiny things",
+        "date":"7/29/2018",
+        "tags":"PHP"
     }
 ]

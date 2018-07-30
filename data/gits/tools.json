@@ -173,5 +173,15 @@
         "date": "7/29/2018",
         "tags": "JS"
     },
-    {}
+    {
+        "name": "CSS Diner",
+        "url": "https://github.com/flukeout/css-diner",
+        "description":  "a fun game to learn and practice CSS selectors.",
+        "date":"7/29/2018",
+        "tags":"CSS"
+    },
+    {
+        "name": ""
+    }
+
 ]
