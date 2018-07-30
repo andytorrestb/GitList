@@ -13,7 +13,7 @@
         "date": "7/10/2018",
         "tags": "CSS"
     },
-    {						
+    {
         "name": "Hover.css",
         "url": "https://github.com/IanLunn/Hover",
         "description": "A collection of CSS3 powered hover effects to be applied to links, buttons, logos, SVG, featured images and so on.",
@@ -68,7 +68,7 @@
         "description": "Dependency management for PHP. Helps declare, manage, and install dependencies for PHP projects",
         "date": "7/10/2018",
         "tags": "PHP"
-    }, 
+    },
     {
         "name": "Cachet",
         "url": "https://github.com/CachetHQ/Cachet",
@@ -108,7 +108,7 @@
         "name": "NBA Gamethread",
         "url": "https://github.com/alex/nba-gamethread",
         "description": "A game thread generator for r/nba",
-        "date":"7/23/2018",
+        "date": "7/23/2018",
         "tags": "Extras"
     },
     {
@@ -122,23 +122,56 @@
         "name": "PayPerCall",
         "url": "https://github.com/ElementsProject/paypercall",
         "description": "Charge for HTTP APIs on a pay-per-call basis woth Botcoing and Lightning",
-        "date":"7/23/2018",
+        "date": "7/23/2018",
         "tags": "Crypto"
     },
     {
         "name": "OpenTok SDK",
         "url": "https://github.com/opentok/Opentok-.NET-SDK",
         "description": "The OpenTok .NET SDK lets you generate sessions and tokens for OpenTok applications that run on the .NET platform. The SDK also includes support for working with OpenTok archives.",
-        "date":"7/23/2018",
-        "tags":"WebRTC"
+        "date": "7/23/2018",
+        "tags": "WebRTC"
     },
     {
         "name": "Random Color",
         "url": "https://github.com/davidmerfield/randomColor",
         "description": "A tiny script for generating attractive random colors.",
-        "date":"7/23/2018"
+        "date": "7/23/2018"
     },
     {
-        
-    }
+        "name": "Stroke",
+        "url": "https://github.com/davidmerfield/Stroke",
+        "description": "a text editor for first drafts",
+        "date": "7/29/2018",
+        "tags": "JS"
+    },
+    {
+        "name": "Typeset",
+        "url": "https://github.com/davidmerfield/Typeset",
+        "description": "an HTML pre-processor for web typography",
+        "date": "7/29/2018",
+        "tags": "JS"
+    },
+    {
+        "name": "Guitzli",
+        "url": "https://github.com/vankesteren/guitzli",
+        "description": "Convert image files for web using guetzli algorithm",
+        "date": "7/29/2018",
+        "tags": "CSS"
+    },
+    {
+        "name": "Browser Sync",
+        "url": "https://github.com/BrowserSync/browser-sync",
+        "description": "program to keep multpile browsers in sync when building websites.",
+        "date": "7/29/2018",
+        "tags": "JS"
+    },
+    {
+        "name": "AO",
+        "url": "https://github.com/klauscfhq/ao",
+        "description": "elegant microsoft to-do desktop app",
+        "date": "7/29/2018",
+        "tags": "JS"
+    },
+    {}
 ]

@@ -61,6 +61,16 @@
         "description": "A modal built with pure CSS, enhanced with JavaScript",
         "date": "7/23/2018",
         "tags": "CSS"
+    },
+    {
+        "name": "ramd.js",
+        "url": "https://github.com/vladocar/ramd.js",
+        "description": "Javascript library for making simple web applications",
+        "date":"7/29/2018",
+        "tags":"JS"
+    },
+    {
+        
     }
 
 ]

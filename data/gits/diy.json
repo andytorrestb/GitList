@@ -1,0 +1,23 @@
+[
+    {
+        "name": "Build your own ____",
+        "url": "https://github.com/danistefanovic/build-your-own-x",
+        "description": "extensive list of projects you can build yourself! ",
+        "tags": "DIY",
+        "date": "7/29/2018"
+    },
+    {
+        "name": "Hackathon Starter",
+        "url": "https://github.com/sahat/hackathon-starter",
+        "description": "A boilerplate for node.js applications",
+        "tags": "MLH",
+        "date":"7/29/2018"
+    },
+    {
+        "name": "Truvtran Project Based Learning",
+        "url": "https://github.com/tuvtran/project-based-learning",
+        "description": "another extensive list of projects you can build yourself",
+        "tags": "DIY",
+        "date": "7/29/2018"
+    }
+]

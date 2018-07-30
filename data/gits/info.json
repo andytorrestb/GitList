@@ -42,7 +42,7 @@
         "tags": "eBooks"
     },
     {
-        "name": "What happens when ?",
+        "name": "What happens when you google something?",
         "url": "https://github.com/alex/what-happens-when",
         "description": "An attempt to answer the age old interview question \"What happens when you type google.com into your browser and press enter?\"",
         "date": "7/23/2018",
@@ -54,6 +54,27 @@
         "description": "The industry standard of verbage for describing updates to software releases",
         "date": "7/23/2018",
         "tags": "Rules"
+    },
+    {
+        "name": "React Developer Roadmap",
+        "url": "https://github.com/adam-golab/react-developer-roadmap",
+        "description": "roadmap to becoming a react developer in 2018",
+        "date":"7/29/2018",
+        "tags": "JS"
+    },
+    {
+       "name": "InterviewMap",
+       "url": "https://github.com/InterviewMap/InterviewMap",
+       "description":"Build your own inter road map. (promising ideas but very slow website",
+       "date": "7/29/2018",
+       "tags": "Interview Prep"
+    },
+    {
+        "name": "Interview Notebook",
+        "url": "https://github.com/CyC2018/Interview-Notebook",
+        "description": "A reference a chinese developer wrote for other developers preparing to interview",
+        "date":"7/29/2018",
+        "tags":"Interview Prep"
     },
     {
         "name": ""
