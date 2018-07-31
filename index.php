@@ -12,5 +12,11 @@ $app->get('/', function (Request $request, Response $response, array $args) {
     return $response;
 });
 
+$app->get('/diy', function (Request $request, Response $response, array $args) {
+	$content = require_once __DIR__.'/diy.php';
+    $response->write($content);
+    return $response;
+});
+
 
 $app->run();
