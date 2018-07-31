@@ -84,6 +84,84 @@
         "tags":"PHP"
     },
     {
+        "name": "Laravolt - Avater",
+        "url": "https://github.com/laravolt/avatar",
+        "description": "Plug n play avatar, turn name, email, and any other string into beautiful avatar, effortless.",
+        "date":"7/29/2018",
+        "tags": "PHP"
+    },
+    {
+      "name": "Laravolt - Name",
+      "url": "https://github.com/laravolt/ui",
+      "description": "Admin template for laravolt based application",
+      "date":"7/29/2018",
+      "tags":"PHP"  
+    },
+    {
+        "name": "Gestalt",
+        "url": "https://github.com/pinterest/gestalt",
+        "description": "A set of React UI components that supports Pinterest’s design language",
+        "date": "7/29/2018",
+        "tags": "PHP"
+    },
+    {
+        "name": "Amp",
+        "url": "https://github.com/amphp/amp",
+        "description": "A non-blocking concurrency framework for PHP applications.",
+        "date": "7/29/2018",
+        "tags": "PHP"
+    },
+    {
+        "name": "Node Cloud Vision API",
+        "url": "https://github.com/tejitak/node-cloud-vision-api",
+        "description": "a node client wrapper for Cloud Vision API.",
+        "date":"7/29/2018",
+        "tags": "JS"
+    },
+    {
+        "name": "PHP Cloud Vision API",
+        "url": "https://github.com/jordikroon/Php-Google-Vision-Api",
+        "description": "compenents for easily building machine learning app",
+        "date":"7/29/2018",
+        "tags":"PHP"
+    },
+    {
+        "name": "Skeleton View",
+        "url": "https://github.com/Juanpe/SkeletonView",
+        "description": "An elegant way to show users that something is happening and also prepare them to which contents they are waiting for",
+        "date":"7/29/2018",
+        "tags":"Swift"
+    },
+    {
+        "name": "Hugo",
+        "url": "https://github.com/gohugoio/hugo",
+        "description": "The world’s fastest framework for building websites.",
+        "date": "7/29/2018",
+        "tags": "GO"
+    },
+    {
+        "name": "Boardgame.io",
+        "url": "https://github.com/google/boardgame.io",
+        "description": " tate management and more for turn based games. ",
+        "date":"7/29/2018",
+        "tags": "JS"
+    },
+    {
+       "name": "Keras",
+       "url": "https://github.com/keras-team/keras" ,
+       "description": "Keras is a high-level neural networks API",
+       "date": "7/29/2018",
+       "tags": "Python"
+    },
+    {
+        "name": "Fsociety",
+        "url": "https://github.com/Manisso/fsociety",
+        "description": "fsociety Hacking Tools Pack – A Penetration Testing Framework",
+        "date": "7/29/2018",
+        "tags": "Python"
+    },
+    {
         "name": ""
     }
+
 ]

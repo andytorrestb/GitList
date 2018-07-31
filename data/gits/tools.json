@@ -181,7 +181,77 @@
         "tags":"CSS"
     },
     {
-        "name": ""
+        "name": "PHP Spread Sheet",
+        "url": "https://github.com/PHPOffice/PhpSpreadsheet",
+        "description": "a pure PHP library for reading and writing speadsheet files",
+        "date":"7/29/2018",
+        "tags": "PHP"
+    },
+    {
+        "name": "Kubernetes",
+        "url": "https://github.com/kubernetes/kubernetes",
+        "description": "Production-Grade Container Scheduling and Management",
+        "date": "7/29/2018",
+        "tags": "GO"
+    },
+    {
+        "name": "Svelte",
+        "url": "https://github.com/sveltejs/svelte",
+        "description": "The dissapearing UI framework. Svelte turns templates into tiny framework-less vanilla JavaScript",
+        "date":"7/29/2018",
+        "tags": "JS"
+    },
+    {
+        "name": "Striker",
+        "url": "https://github.com/s0md3v/Striker",
+        "description": "an offensive information and vulnerability scanner.",
+        "date":"7/29/2018",
+        "tags": "Python"
+    },
+    {
+        "name": "Youtube DL",
+        "url": "https://github.com/rg3/youtube-dl",
+        "description": "Command-line program to download videos from YouTube.com and other video sites",
+        "date": "7/29/2018",
+        "tags": "Python"
+    },
+    {
+        "name": "Parris",
+        "url": "https://github.com/jgreenemi/Parris",
+        "description": "Parris, the automated infrastructure setup tool for machine learning algorithms.",
+        "date":"7/29/2018",
+        "tags":"Python"
+    },
+    {
+        "name": "VulnWhisper",
+        "url": "https://github.com/austin-taylor/VulnWhisperer",
+        "description": "Create actionable data from your Vulnerability Scans",
+        "date":"7/29/2018",
+        "tags":"Python"
+    },
+    {
+        "name": "MC2048",
+        "url": "https://github.com/Minecodecraft/MC2048",
+        "description": "A simple 2048 Game implemented by Objective-C",
+        "date":"7/29/2018",
+        "tags": "Onjective-C"
+    },
+    {
+        "name": "FAC",
+        "url": "https://github.com/mkchoi212/fac",
+        "description": "Easy-to-use CUI for fixing git conflicts",
+        "date":"7/29/2018",
+        "tags": "GO"
+    },
+    {
+        "name":"X-Crack",
+        "url": "https://github.com/netxfly/x-crack",
+        "description": "Weak password scanner",
+        "date":"7/29/2018",
+        "tags":"GO"
+    },
+    {
+        
     }
 
 ]
