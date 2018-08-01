@@ -78,7 +78,7 @@ $app->get('/jargon', function (Request $request, Response $repsonse, array $args
 $app->get('/stats', function (Request $request, Response $response, array $array){
     $content = require_once __DIR__.'/stats.php';
     $repsonse->write($content);
-});s
+});
 
 
 
