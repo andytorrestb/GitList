@@ -45,7 +45,7 @@
 									</thead>
 									<tbody>
 										<tr v-for="(item,index) in items">
-											+<td><a :href="item.url">#{{index + 1}}. {{item.name}}</a></td>
+											<td><a :href="item.url">#{{index + 1}}. {{item.name}}</a></td>
 											<td>{{item.description}}</td>
 											<td>{{item.tags}}</td>
 											<td>{{item.date}}</td>												
