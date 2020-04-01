@@ -68,7 +68,7 @@
     "is-windows": "^1.0.2",
     "isarray": "^2.0.4",
     "isobject": "^3.0.1",
-    "kind-of": "^6.0.2",
+    "kind-of": "^6.0.3",
     "lodash.debounce": "^4.0.8",
     "map-cache": "^0.2.2",
     "map-visit": "^1.0.0",
