@@ -50,7 +50,7 @@
     "for-in": "^1.0.2",
     "fragment-cache": "^0.2.1",
     "get-value": "^3.0.1",
-    "glob-parent": "^3.1.0",
+    "glob-parent": "^5.1.2",
     "graceful-fs": "^4.1.11",
     "has-value": "^2.0.2",
     "has-values": "^2.0.1",
